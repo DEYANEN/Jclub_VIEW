@@ -1,0 +1,2241 @@
+{
+  "version": 1,
+  "note": "enabledをfalseにすると選択候補から除外されます。センスの効果は対象パラメータ別に指定します。カード固有のボーナス/カスタムは変更不可。",
+  "senses": [
+    {
+      "id": "OFE-5",
+      "name": "オフェンス5%アップ",
+      "enabled": true,
+      "effects": {
+        "OFE": 5
+      },
+      "type": "付与センス",
+      "description": "",
+      "linkEffects": {},
+      "icon": "images/sense_icons/blue/OFE.png",
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "DEF-5",
+      "name": "ディフェンス5%アップ",
+      "enabled": true,
+      "effects": {
+        "DEF": 5
+      },
+      "type": "付与センス",
+      "description": "",
+      "linkEffects": {},
+      "icon": "images/sense_icons/blue/DEF.png",
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "TEC-5",
+      "name": "テクニック5%アップ",
+      "enabled": true,
+      "effects": {
+        "TEC": 5
+      },
+      "type": "付与センス",
+      "description": "",
+      "linkEffects": {},
+      "icon": "images/sense_icons/blue/TEC.png",
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "POW-5",
+      "name": "パワー5%アップ",
+      "enabled": true,
+      "effects": {
+        "POW": 5
+      },
+      "type": "付与センス",
+      "description": "",
+      "linkEffects": {},
+      "icon": "images/sense_icons/blue/POW.png",
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "SPD-5",
+      "name": "スピード5%アップ",
+      "enabled": true,
+      "effects": {
+        "SPD": 5
+      },
+      "type": "付与センス",
+      "description": "",
+      "linkEffects": {},
+      "icon": "images/sense_icons/blue/SPD.png",
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "STA-5",
+      "name": "スタミナ5%アップ",
+      "enabled": true,
+      "effects": {
+        "STA": 5
+      },
+      "type": "付与センス",
+      "description": "",
+      "linkEffects": {},
+      "icon": "images/sense_icons/blue/STA.png",
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "OFE-10",
+      "name": "オフェンス10%アップ",
+      "enabled": true,
+      "effects": {
+        "OFE": 10
+      },
+      "type": "付与センス",
+      "description": "",
+      "linkEffects": {},
+      "icon": "images/sense_icons/bronze/OFE.png",
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "DEF-10",
+      "name": "ディフェンス10%アップ",
+      "enabled": true,
+      "effects": {
+        "DEF": 10
+      },
+      "type": "付与センス",
+      "description": "",
+      "linkEffects": {},
+      "icon": "images/sense_icons/bronze/DEF.png",
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "TEC-10",
+      "name": "テクニック10%アップ",
+      "enabled": true,
+      "effects": {
+        "TEC": 10
+      },
+      "type": "付与センス",
+      "description": "",
+      "linkEffects": {},
+      "icon": "images/sense_icons/bronze/TEC.png",
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "POW-10",
+      "name": "パワー10%アップ",
+      "enabled": true,
+      "effects": {
+        "POW": 10
+      },
+      "type": "付与センス",
+      "description": "",
+      "linkEffects": {},
+      "icon": "images/sense_icons/bronze/POW.png",
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "SPD-10",
+      "name": "スピード10%アップ",
+      "enabled": true,
+      "effects": {
+        "SPD": 10
+      },
+      "type": "付与センス",
+      "description": "",
+      "linkEffects": {},
+      "icon": "images/sense_icons/bronze/SPD.png",
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "STA-10",
+      "name": "スタミナ10%アップ",
+      "enabled": true,
+      "effects": {
+        "STA": 10
+      },
+      "type": "付与センス",
+      "description": "",
+      "linkEffects": {},
+      "icon": "images/sense_icons/bronze/STA.png",
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "OFE-15",
+      "name": "オフェンス15%アップ",
+      "enabled": true,
+      "effects": {
+        "OFE": 15
+      },
+      "icon": "images/sense_icons/silver/OFE.png",
+      "type": "付与センス"
+    },
+    {
+      "id": "DEF-15",
+      "name": "ディフェンス15%アップ",
+      "enabled": true,
+      "effects": {
+        "DEF": 15
+      },
+      "icon": "images/sense_icons/silver/DEF.png",
+      "type": "付与センス"
+    },
+    {
+      "id": "TEC-15",
+      "name": "テクニック15%アップ",
+      "enabled": true,
+      "effects": {
+        "TEC": 15
+      },
+      "icon": "images/sense_icons/silver/TEC.png",
+      "type": "付与センス"
+    },
+    {
+      "id": "POW-15",
+      "name": "パワー15%アップ",
+      "enabled": true,
+      "effects": {
+        "POW": 15
+      },
+      "icon": "images/sense_icons/silver/POW.png",
+      "type": "付与センス"
+    },
+    {
+      "id": "SPD-15",
+      "name": "スピード15%アップ",
+      "enabled": true,
+      "effects": {
+        "SPD": 15
+      },
+      "icon": "images/sense_icons/silver/SPD.png",
+      "type": "付与センス"
+    },
+    {
+      "id": "STA-15",
+      "name": "スタミナ15%アップ",
+      "enabled": true,
+      "effects": {
+        "STA": 15
+      },
+      "icon": "images/sense_icons/silver/STA.png",
+      "type": "付与センス"
+    },
+    {
+      "id": "OFE-20",
+      "name": "オフェンス20%アップ",
+      "enabled": true,
+      "effects": {
+        "OFE": 20
+      },
+      "icon": "images/sense_icons/gold/OFE.png",
+      "type": "付与センス"
+    },
+    {
+      "id": "DEF-20",
+      "name": "ディフェンス20%アップ",
+      "enabled": true,
+      "effects": {
+        "DEF": 20
+      },
+      "icon": "images/sense_icons/gold/DEF.png",
+      "type": "付与センス"
+    },
+    {
+      "id": "TEC-20",
+      "name": "テクニック20%アップ",
+      "enabled": true,
+      "effects": {
+        "TEC": 20
+      },
+      "icon": "images/sense_icons/gold/TEC.png",
+      "type": "付与センス"
+    },
+    {
+      "id": "POW-20",
+      "name": "パワー20%アップ",
+      "enabled": true,
+      "effects": {
+        "POW": 20
+      },
+      "icon": "images/sense_icons/gold/POW.png",
+      "type": "付与センス"
+    },
+    {
+      "id": "SPD-20",
+      "name": "スピード20%アップ",
+      "enabled": true,
+      "effects": {
+        "SPD": 20
+      },
+      "icon": "images/sense_icons/gold/SPD.png",
+      "type": "付与センス"
+    },
+    {
+      "id": "STA-20",
+      "name": "スタミナ20%アップ",
+      "enabled": true,
+      "effects": {
+        "STA": 20
+      },
+      "icon": "images/sense_icons/gold/STA.png",
+      "type": "付与センス"
+    },
+    {
+      "id": "OFE-20-plus",
+      "name": "オフェンス20%アップ+",
+      "enabled": true,
+      "effects": {
+        "OFE": 20
+      },
+      "note": "ボーナスセンス用表記のため標準では選択不可",
+      "icon": "images/sense_icons/gold/OFE.png",
+      "type": "付与センス"
+    },
+    {
+      "id": "DEF-20-plus",
+      "name": "ディフェンス20%アップ+",
+      "enabled": true,
+      "effects": {
+        "DEF": 20
+      },
+      "note": "ボーナスセンス用表記のため標準では選択不可",
+      "icon": "images/sense_icons/gold/DEF.png",
+      "type": "付与センス"
+    },
+    {
+      "id": "TEC-20-plus",
+      "name": "テクニック20%アップ+",
+      "enabled": true,
+      "effects": {
+        "TEC": 20
+      },
+      "note": "ボーナスセンス用表記のため標準では選択不可",
+      "icon": "images/sense_icons/gold/TEC.png",
+      "type": "付与センス"
+    },
+    {
+      "id": "POW-20-plus",
+      "name": "パワー20%アップ+",
+      "enabled": true,
+      "effects": {
+        "POW": 20
+      },
+      "note": "ボーナスセンス用表記のため標準では選択不可",
+      "icon": "images/sense_icons/gold/POW.png",
+      "type": "付与センス"
+    },
+    {
+      "id": "SPD-20-plus",
+      "name": "スピード20%アップ+",
+      "enabled": true,
+      "effects": {
+        "SPD": 20
+      },
+      "note": "ボーナスセンス用表記のため標準では選択不可",
+      "icon": "images/sense_icons/gold/SPD.png",
+      "type": "付与センス"
+    },
+    {
+      "id": "STA-20-plus",
+      "name": "スタミナ20%アップ+",
+      "enabled": true,
+      "effects": {
+        "STA": 20
+      },
+      "note": "ボーナスセンス用表記のため標準では選択不可",
+      "icon": "images/sense_icons/gold/STA.png",
+      "type": "付与センス"
+    },
+    {
+      "id": "sense-a41b6db47edb3c88",
+      "type": "カスタムセンス",
+      "name": "クラッシャー",
+      "description": "激しくボールに食らいつき、相手の攻撃の芽を摘む",
+      "effects": {},
+      "icon": "images/sense_icons/custom/crusher.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-3f04723bf4ef67ca",
+      "type": "カスタムセンス",
+      "name": "スキルフルクロッサー",
+      "description": "ラインを押し上げつつ、クロスからの得点を狙う",
+      "effects": {},
+      "icon": "images/sense_icons/custom/skillful_crosser.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-55f3da60699f5746",
+      "type": "カスタムセンス",
+      "name": "ドリブルスター",
+      "description": "ドリブルテクニックを駆使してラインを押し上げ、ゴールマウスに迫る",
+      "effects": {},
+      "icon": "images/sense_icons/custom/dribble_star.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-6d48d011bfe712c7",
+      "type": "カスタムセンス",
+      "name": "バックライナー",
+      "description": "堅固な最終ラインを形成し、守備の基盤となる",
+      "effects": {},
+      "icon": "images/sense_icons/custom/back_liner.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-9f347795b09d5c3d",
+      "type": "カスタムセンス",
+      "name": "ピッチランナー",
+      "description": "ピッチを広く駆け回り、攻守に躍動する",
+      "effects": {},
+      "icon": "images/sense_icons/custom/pitch_runner.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-7bc950cde55957d8",
+      "type": "カスタムセンス",
+      "name": "フォートレス",
+      "description": "最後方で砦となって、チーム全体を支える",
+      "effects": {},
+      "icon": "images/sense_icons/custom/fortress.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-c5167e112e8328b2",
+      "type": "カスタムセンス",
+      "name": "ブラインダー",
+      "description": "類まれなる集中力でゴールマウスを守り抜く",
+      "effects": {},
+      "icon": "images/sense_icons/custom/blinder.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-b804bbff8ac1887c",
+      "type": "カスタムセンス",
+      "name": "ミドルシューター",
+      "description": "中距離シュートの積極性や精度を高める",
+      "effects": {},
+      "icon": "images/sense_icons/custom/middle_shooter.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-9472cec5da3be7cd",
+      "type": "カスタムセンス",
+      "name": "ワンタッチゴーラー",
+      "description": "味方からのパスに素早く反応し、ワンタッチでの得点を狙う",
+      "effects": {},
+      "icon": "images/sense_icons/custom/one_touch_goaler.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-2b8c40c26f369c72",
+      "type": "ボーナスセンス",
+      "name": "EP50%アップ+",
+      "description": "EP獲得量が50/55/60%アップ",
+      "effects": {},
+      "icon": "images/sense_icons/ep_only/gold.png",
+      "enabled": true,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-85d39509e0b1f2f3",
+      "type": "ボーナスセンス",
+      "name": "EP50%アップ+ オフェンス15%アップ+",
+      "description": "EP獲得量が50/55/60%アップ 選手のオフェンス値が15/20/25%アップ",
+      "effects": {
+        "OFE": 15
+      },
+      "icon": "images/sense_icons/ep_first/OFE.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "OFE": [
+          15,
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "id": "sense-3c04245779185d87",
+      "type": "ボーナスセンス",
+      "name": "EP50%アップ+ スピード15%アップ+",
+      "description": "EP獲得量が50/55/60%アップ 選手のスピード値が15/20/25%アップ",
+      "effects": {
+        "SPD": 15
+      },
+      "icon": "images/sense_icons/ep_first/SPD.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "SPD": [
+          15,
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "id": "sense-8a5d79931efbe15b",
+      "type": "ボーナスセンス",
+      "name": "EP50%アップ+ パワー15%アップ+",
+      "description": "EP獲得量が50/55/60%アップ 選手のパワー値が15/20/25%アップ",
+      "effects": {
+        "POW": 15
+      },
+      "icon": "images/sense_icons/ep_first/POW.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "POW": [
+          15,
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "id": "sense-a5aa2297a86481d7",
+      "type": "ボーナスセンス",
+      "name": "EP50%アップ+ スタミナ15%アップ+",
+      "description": "EP獲得量が50/55/60%アップ 選手のスタミナ値が15/20/25%アップ",
+      "effects": {
+        "STA": 15
+      },
+      "icon": "images/sense_icons/ep_first/STA.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "STA": [
+          15,
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "id": "sense-4f977ad8ab3f2ddd",
+      "type": "ボーナスセンス",
+      "name": "EP50%アップ+ テクニック15%アップ+",
+      "description": "EP獲得量が50/55/60%アップ 選手のテクニック値が15/20/25%アップ",
+      "effects": {
+        "TEC": 15
+      },
+      "icon": "images/sense_icons/ep_first/TEC.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "TEC": [
+          15,
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "id": "sense-bc7d5ce0edad27ff",
+      "type": "ボーナスセンス",
+      "name": "EP50%アップ+ ディフェンス15%アップ+",
+      "description": "EP獲得量が50/55/60%アップ 選手のディフェンス値が15/20/25%アップ",
+      "effects": {
+        "DEF": 15
+      },
+      "icon": "images/sense_icons/ep_first/DEF.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "DEF": [
+          15,
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "id": "sense-fc5dc1fa117c0205",
+      "type": "ボーナスセンス",
+      "name": "オフェンス15%アップ",
+      "description": "選手のオフェンス値が15%アップ",
+      "effects": {
+        "OFE": 15
+      },
+      "icon": "images/sense_icons/silver/OFE.png",
+      "enabled": true,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-4af996961bbbf5b1",
+      "type": "ボーナスセンス",
+      "name": "オフェンス15%アップ+",
+      "description": "選手のオフェンス値が15/20/25%アップ",
+      "effects": {
+        "OFE": 15
+      },
+      "icon": "images/sense_icons/silver/OFE.png",
+      "enabled": true,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "OFE": [
+          15,
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "id": "sense-8a76bb12c6e30c94",
+      "type": "ボーナスセンス",
+      "name": "オフェンス20%アップ",
+      "description": "選手のオフェンス値が20%アップ",
+      "effects": {
+        "OFE": 20
+      },
+      "icon": "images/sense_icons/gold/OFE.png",
+      "enabled": true,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-751f8b7bce2c73b5",
+      "type": "ボーナスセンス",
+      "name": "オフェンス20%アップ EP30%アップ",
+      "description": "選手のオフェンス値が20%アップ EP獲得量が30%アップ",
+      "effects": {
+        "OFE": 20
+      },
+      "icon": "images/sense_icons/attr_first/OFE.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-200d2c8a79913e81",
+      "type": "ボーナスセンス",
+      "name": "オフェンス20%アップ スタミナ15%アップ",
+      "description": "選手のオフェンス値が20%アップ 選手のスタミナ値が15%アップ",
+      "effects": {
+        "OFE": 20,
+        "STA": 15
+      },
+      "icon": "images/sense_icons/dual/OFE_STA.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-8f9f6cc250ab0282",
+      "type": "ボーナスセンス",
+      "name": "オフェンス20%アップ スピード15%アップ",
+      "description": "選手のオフェンス値が20%アップ 選手のスピード値が15%アップ",
+      "effects": {
+        "OFE": 20,
+        "SPD": 15
+      },
+      "icon": "images/sense_icons/dual/OFE_SPD.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-88decb2ceb14168b",
+      "type": "ボーナスセンス",
+      "name": "オフェンス20%アップ テクニック15%アップ",
+      "description": "選手のオフェンス値が20%アップ 選手のテクニック値が15%アップ",
+      "effects": {
+        "OFE": 20,
+        "TEC": 15
+      },
+      "icon": "images/sense_icons/dual/OFE_TEC.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-2353a77804a5ffe7",
+      "type": "ボーナスセンス",
+      "name": "オフェンス20%アップ パワー15%アップ",
+      "description": "選手のオフェンス値が20%アップ 選手のパワー値が15%アップ",
+      "effects": {
+        "OFE": 20,
+        "POW": 15
+      },
+      "icon": "images/sense_icons/dual/OFE_POW.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-c604d58419019ada",
+      "type": "ボーナスセンス",
+      "name": "オフェンス20%アップ+",
+      "description": "選手のオフェンス値が20/25/30%アップ",
+      "effects": {
+        "OFE": 20
+      },
+      "icon": "images/sense_icons/gold/OFE.png",
+      "enabled": true,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "OFE": [
+          20,
+          25,
+          30
+        ]
+      }
+    },
+    {
+      "id": "sense-81dd2039d1f1715b",
+      "type": "ボーナスセンス",
+      "name": "オフェンス20%アップ+ EP30%アップ+",
+      "description": "選手のオフェンス値が20/25/30%アップ EP獲得量が30/35/40%アップ",
+      "effects": {
+        "OFE": 20
+      },
+      "icon": "images/sense_icons/attr_first/OFE.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "OFE": [
+          20,
+          25,
+          30
+        ]
+      }
+    },
+    {
+      "id": "sense-d4b2f645f647ceb5",
+      "type": "ボーナスセンス",
+      "name": "オフェンス20%アップ+ スタミナ15%アップ+",
+      "description": "選手のオフェンス値が20/25/30%アップ 選手のスタミナ値が15/20/25%アップ",
+      "effects": {
+        "OFE": 20,
+        "STA": 15
+      },
+      "icon": "images/sense_icons/dual/OFE_STA.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "OFE": [
+          20,
+          25,
+          30
+        ],
+        "STA": [
+          15,
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "id": "sense-dd6cca74195ad105",
+      "type": "ボーナスセンス",
+      "name": "オフェンス20%アップ+ スピード15%アップ+",
+      "description": "選手のオフェンス値が20/25/30%アップ 選手のスピード値が15/20/25%アップ",
+      "effects": {
+        "OFE": 20,
+        "SPD": 15
+      },
+      "icon": "images/sense_icons/dual/OFE_SPD.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "OFE": [
+          20,
+          25,
+          30
+        ],
+        "SPD": [
+          15,
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "id": "sense-1864df075e2314de",
+      "type": "ボーナスセンス",
+      "name": "オフェンス20%アップ+ テクニック15%アップ+",
+      "description": "選手のオフェンス値が20/25/30%アップ 選手のテクニック値が15/20/25%アップ",
+      "effects": {
+        "OFE": 20,
+        "TEC": 15
+      },
+      "icon": "images/sense_icons/dual/OFE_TEC.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "OFE": [
+          20,
+          25,
+          30
+        ],
+        "TEC": [
+          15,
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "id": "sense-5463636015a08f18",
+      "type": "ボーナスセンス",
+      "name": "オフェンス20%アップ+ パワー15%アップ+",
+      "description": "選手のオフェンス値が20/25/30%アップ 選手のパワー値が15/20/25%アップ",
+      "effects": {
+        "OFE": 20,
+        "POW": 15
+      },
+      "icon": "images/sense_icons/dual/OFE_POW.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "OFE": [
+          20,
+          25,
+          30
+        ],
+        "POW": [
+          15,
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "id": "sense-16f56fd3f244dc7a",
+      "type": "ボーナスセンス",
+      "name": "キーパースキル強化A",
+      "description": "キーパー系のAスペシャルスキルを強化し、EP獲得量が25%アップ",
+      "effects": {},
+      "icon": "images/sense_icons/bonus/keeper_skill_a.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-94b8b4678c60a183",
+      "type": "ボーナスセンス",
+      "name": "ゴールへの執念",
+      "description": "後半開始時にスタミナが回復、スピード値が30%アップし、オフザボールにてダッシュスピードがアップする",
+      "effects": {
+        "SPD": 30
+      },
+      "icon": "images/sense_icons/bonus/goal_obsession.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-298fd7b80e17cfb9",
+      "type": "ボーナスセンス",
+      "name": "シュートスキル強化A",
+      "description": "シュート系のAスペシャルスキルを強化し、EP獲得量が25%アップ",
+      "effects": {},
+      "icon": "images/sense_icons/bonus/shoot_skill_a.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-b435075ff91f788a",
+      "type": "ボーナスセンス",
+      "name": "ジャイアントキラー",
+      "description": "対戦チームの総合値が自チームより高い場合、能力が大幅アップ",
+      "effects": {},
+      "icon": "images/sense_icons/bonus/giant_killer.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-4f8b6515f80c6fd7",
+      "type": "ボーナスセンス",
+      "name": "スタミナ15%アップ",
+      "description": "選手のスタミナ値が15%アップ",
+      "effects": {
+        "STA": 15
+      },
+      "icon": "images/sense_icons/silver/STA.png",
+      "enabled": true,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-955e52a067387fff",
+      "type": "ボーナスセンス",
+      "name": "スタミナ15%アップ+",
+      "description": "選手のスタミナ値が15/20/25%アップ",
+      "effects": {
+        "STA": 15
+      },
+      "icon": "images/sense_icons/silver/STA.png",
+      "enabled": true,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "STA": [
+          15,
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "id": "sense-c880d7d71111f22d",
+      "type": "ボーナスセンス",
+      "name": "スタミナ20%アップ",
+      "description": "選手のスタミナ値が20%アップ",
+      "effects": {
+        "STA": 20
+      },
+      "icon": "images/sense_icons/gold/STA.png",
+      "enabled": true,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-8cdccb6c7c1dfb35",
+      "type": "ボーナスセンス",
+      "name": "スタミナ20%アップ EP30%アップ",
+      "description": "選手のスタミナ値が20%アップ EP獲得量が30%アップ",
+      "effects": {
+        "STA": 20
+      },
+      "icon": "images/sense_icons/attr_first/STA.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-dbffc477be08af95",
+      "type": "ボーナスセンス",
+      "name": "スタミナ20%アップ+",
+      "description": "選手のスタミナ値が20/25/30%アップ",
+      "effects": {
+        "STA": 20
+      },
+      "icon": "images/sense_icons/gold/STA.png",
+      "enabled": true,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "STA": [
+          20,
+          25,
+          30
+        ]
+      }
+    },
+    {
+      "id": "sense-8999f27b11e5a5b3",
+      "type": "ボーナスセンス",
+      "name": "スタミナ20%アップ+ EP30%アップ+",
+      "description": "選手のスタミナ値が20/25/30%アップ EP獲得量が30/35/40%アップ",
+      "effects": {
+        "STA": 20
+      },
+      "icon": "images/sense_icons/attr_first/STA.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "STA": [
+          20,
+          25,
+          30
+        ]
+      }
+    },
+    {
+      "id": "sense-f92b31d5e26f46c6",
+      "type": "ボーナスセンス",
+      "name": "スピード15%アップ",
+      "description": "選手のスピード値が15%アップ",
+      "effects": {
+        "SPD": 15
+      },
+      "icon": "images/sense_icons/silver/SPD.png",
+      "enabled": true,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-ccaf4df56f7cc333",
+      "type": "ボーナスセンス",
+      "name": "スピード15%アップ+",
+      "description": "選手のスピード値が15/20/25%アップ",
+      "effects": {
+        "SPD": 15
+      },
+      "icon": "images/sense_icons/silver/SPD.png",
+      "enabled": true,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "SPD": [
+          15,
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "id": "sense-167435aa71da852b",
+      "type": "ボーナスセンス",
+      "name": "スピード20%アップ",
+      "description": "選手のスピード値が20%アップ",
+      "effects": {
+        "SPD": 20
+      },
+      "icon": "images/sense_icons/gold/SPD.png",
+      "enabled": true,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-91045704d65383d4",
+      "type": "ボーナスセンス",
+      "name": "スピード20%アップ EP30%アップ",
+      "description": "選手のスピード値が20%アップ EP獲得量が30%アップ",
+      "effects": {
+        "SPD": 20
+      },
+      "icon": "images/sense_icons/attr_first/SPD.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-e09d2da1283df7c9",
+      "type": "ボーナスセンス",
+      "name": "スピード20%アップ+",
+      "description": "選手のスピード値が20/25/30%アップ",
+      "effects": {
+        "SPD": 20
+      },
+      "icon": "images/sense_icons/gold/SPD.png",
+      "enabled": true,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "SPD": [
+          20,
+          25,
+          30
+        ]
+      }
+    },
+    {
+      "id": "sense-3cd8a8ea1090b91b",
+      "type": "ボーナスセンス",
+      "name": "スピード20%アップ+ EP30%アップ+",
+      "description": "選手のスピード値が20/25/30%アップ EP獲得量が30/35/40%アップ",
+      "effects": {
+        "SPD": 20
+      },
+      "icon": "images/sense_icons/attr_first/SPD.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "SPD": [
+          20,
+          25,
+          30
+        ]
+      }
+    },
+    {
+      "id": "sense-975be4466d3196be",
+      "type": "ボーナスセンス",
+      "name": "スピードスター",
+      "description": "スピード値が20%アップし、ダッシュ、およびドリブルスピードがアップする",
+      "effects": {
+        "SPD": 20
+      },
+      "icon": "images/sense_icons/bonus/speedster.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-495830a62de63c51",
+      "type": "ボーナスセンス",
+      "name": "テクニック15%アップ",
+      "description": "選手のテクニック値が15%アップ",
+      "effects": {
+        "TEC": 15
+      },
+      "icon": "images/sense_icons/silver/TEC.png",
+      "enabled": true,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-c536f1fbc2fa26ce",
+      "type": "ボーナスセンス",
+      "name": "テクニック15%アップ+",
+      "description": "選手のテクニック値が15/20/25%アップ",
+      "effects": {
+        "TEC": 15
+      },
+      "icon": "images/sense_icons/silver/TEC.png",
+      "enabled": true,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "TEC": [
+          15,
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "id": "sense-e94dc7635339f3cb",
+      "type": "ボーナスセンス",
+      "name": "テクニック20%アップ",
+      "description": "選手のテクニック値が20%アップ",
+      "effects": {
+        "TEC": 20
+      },
+      "icon": "images/sense_icons/gold/TEC.png",
+      "enabled": true,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-b706790851cc4910",
+      "type": "ボーナスセンス",
+      "name": "テクニック20%アップ EP30%アップ",
+      "description": "選手のテクニック値が20%アップ EP獲得量が30%アップ",
+      "effects": {
+        "TEC": 20
+      },
+      "icon": "images/sense_icons/attr_first/TEC.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-cc0e2cb83fa2ee06",
+      "type": "ボーナスセンス",
+      "name": "テクニック20%アップ+",
+      "description": "選手のテクニック値が20/25/30%アップ",
+      "effects": {
+        "TEC": 20
+      },
+      "icon": "images/sense_icons/gold/TEC.png",
+      "enabled": true,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "TEC": [
+          20,
+          25,
+          30
+        ]
+      }
+    },
+    {
+      "id": "sense-b890343f2b337b82",
+      "type": "ボーナスセンス",
+      "name": "テクニック20%アップ+ EP30%アップ+",
+      "description": "選手のテクニック値が20/25/30%アップ EP獲得量が30/35/40%アップ",
+      "effects": {
+        "TEC": 20
+      },
+      "icon": "images/sense_icons/attr_first/TEC.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "TEC": [
+          20,
+          25,
+          30
+        ]
+      }
+    },
+    {
+      "id": "sense-2a0e922b3f9c26e9",
+      "type": "ボーナスセンス",
+      "name": "ディフェンス15%アップ",
+      "description": "選手のディフェンス値が15%アップ",
+      "effects": {
+        "DEF": 15
+      },
+      "icon": "images/sense_icons/silver/DEF.png",
+      "enabled": true,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-4b8c9a2757fa7de4",
+      "type": "ボーナスセンス",
+      "name": "ディフェンス15%アップ+",
+      "description": "選手のディフェンス値が15/20/25%アップ",
+      "effects": {
+        "DEF": 15
+      },
+      "icon": "images/sense_icons/silver/DEF.png",
+      "enabled": true,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "DEF": [
+          15,
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "id": "sense-adaafae67a211591",
+      "type": "ボーナスセンス",
+      "name": "ディフェンス20%アップ",
+      "description": "選手のディフェンス値が20%アップ",
+      "effects": {
+        "DEF": 20
+      },
+      "icon": "images/sense_icons/gold/DEF.png",
+      "enabled": true,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-ef93d1be10161fc7",
+      "type": "ボーナスセンス",
+      "name": "ディフェンス20%アップ EP30%アップ",
+      "description": "選手のディフェンス値が20%アップ EP獲得量が30%アップ",
+      "effects": {
+        "DEF": 20
+      },
+      "icon": "images/sense_icons/attr_first/DEF.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-595dd3ba1361052e",
+      "type": "ボーナスセンス",
+      "name": "ディフェンス20%アップ スタミナ15%アップ",
+      "description": "選手のディフェンス値が20%アップ 選手のスタミナ値が15%アップ",
+      "effects": {
+        "DEF": 20,
+        "STA": 15
+      },
+      "icon": "images/sense_icons/dual/DEF_STA.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-7a56109e0e4c4e19",
+      "type": "ボーナスセンス",
+      "name": "ディフェンス20%アップ スピード15%アップ",
+      "description": "選手のディフェンス値が20%アップ 選手のスピード値が15%アップ",
+      "effects": {
+        "DEF": 20,
+        "SPD": 15
+      },
+      "icon": "images/sense_icons/dual/DEF_SPD.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-d2e7cf4cc585c551",
+      "type": "ボーナスセンス",
+      "name": "ディフェンス20%アップ テクニック15%アップ",
+      "description": "選手のディフェンス値が20%アップ 選手のテクニック値が15%アップ",
+      "effects": {
+        "DEF": 20,
+        "TEC": 15
+      },
+      "icon": "images/sense_icons/dual/DEF_TEC.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-96d1b83b699e2b84",
+      "type": "ボーナスセンス",
+      "name": "ディフェンス20%アップ パワー15%アップ",
+      "description": "選手のディフェンス値が20%アップ 選手のパワー値が15%アップ",
+      "effects": {
+        "DEF": 20,
+        "POW": 15
+      },
+      "icon": "images/sense_icons/dual/DEF_POW.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-3e7645f2b6a84c2b",
+      "type": "ボーナスセンス",
+      "name": "ディフェンス20%アップ+",
+      "description": "選手のディフェンス値が20/25/30%アップ",
+      "effects": {
+        "DEF": 20
+      },
+      "icon": "images/sense_icons/gold/DEF.png",
+      "enabled": true,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "DEF": [
+          20,
+          25,
+          30
+        ]
+      }
+    },
+    {
+      "id": "sense-32840ddce4c2ed30",
+      "type": "ボーナスセンス",
+      "name": "ディフェンス20%アップ+ EP30%アップ+",
+      "description": "選手のディフェンス値が20/25/30%アップ EP獲得量が30/35/40%アップ",
+      "effects": {
+        "DEF": 20
+      },
+      "icon": "images/sense_icons/attr_first/DEF.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "DEF": [
+          20,
+          25,
+          30
+        ]
+      }
+    },
+    {
+      "id": "sense-b503a93e94402d11",
+      "type": "ボーナスセンス",
+      "name": "ディフェンス20%アップ+ スタミナ15%アップ+",
+      "description": "選手のディフェンス値が20/25/30%アップ 選手のスタミナ値が15/20/25%アップ",
+      "effects": {
+        "DEF": 20,
+        "STA": 15
+      },
+      "icon": "images/sense_icons/dual/DEF_STA.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "DEF": [
+          20,
+          25,
+          30
+        ],
+        "STA": [
+          15,
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "id": "sense-930aa5ded2ff77d7",
+      "type": "ボーナスセンス",
+      "name": "ディフェンス20%アップ+ スピード15%アップ+",
+      "description": "選手のディフェンス値が20/25/30%アップ 選手のスピード値が15/20/25%アップ",
+      "effects": {
+        "DEF": 20,
+        "SPD": 15
+      },
+      "icon": "images/sense_icons/dual/DEF_SPD.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "DEF": [
+          20,
+          25,
+          30
+        ],
+        "SPD": [
+          15,
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "id": "sense-92f5589c033a0f4e",
+      "type": "ボーナスセンス",
+      "name": "ディフェンス20%アップ+ テクニック15%アップ+",
+      "description": "選手のディフェンス値が20/25/30%アップ 選手のテクニック値が15/20/25%アップ",
+      "effects": {
+        "DEF": 20,
+        "TEC": 15
+      },
+      "icon": "images/sense_icons/dual/DEF_TEC.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "DEF": [
+          20,
+          25,
+          30
+        ],
+        "TEC": [
+          15,
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "id": "sense-8b025e3f3ca18c61",
+      "type": "ボーナスセンス",
+      "name": "ディフェンス20%アップ+ パワー15%アップ+",
+      "description": "選手のディフェンス値が20/25/30%アップ 選手のパワー値が15/20/25%アップ",
+      "effects": {
+        "DEF": 20,
+        "POW": 15
+      },
+      "icon": "images/sense_icons/dual/DEF_POW.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "DEF": [
+          20,
+          25,
+          30
+        ],
+        "POW": [
+          15,
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "id": "sense-4ef9496d7c1cbfb4",
+      "type": "ボーナスセンス",
+      "name": "ディフェンススキル強化A",
+      "description": "ディフェンス系のスペシャルスキルを強化し、EP獲得量が25%アップ",
+      "effects": {},
+      "icon": "images/sense_icons/bonus/defence_skill_a.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-bebcfae00145c621",
+      "type": "ボーナスセンス",
+      "name": "パワー15%アップ",
+      "description": "選手のパワー値が15%アップ",
+      "effects": {
+        "POW": 15
+      },
+      "icon": "images/sense_icons/silver/POW.png",
+      "enabled": true,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-582f873d19bf89d6",
+      "type": "ボーナスセンス",
+      "name": "パワー15%アップ+",
+      "description": "選手のパワー値が15/20/25%アップ",
+      "effects": {
+        "POW": 15
+      },
+      "icon": "images/sense_icons/silver/POW.png",
+      "enabled": true,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "POW": [
+          15,
+          20,
+          25
+        ]
+      }
+    },
+    {
+      "id": "sense-c7a5b1997eb3e0ab",
+      "type": "ボーナスセンス",
+      "name": "パワー20%アップ",
+      "description": "選手のパワー値が20%アップ",
+      "effects": {
+        "POW": 20
+      },
+      "icon": "images/sense_icons/gold/POW.png",
+      "enabled": true,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-e79d3e281e2d9d38",
+      "type": "ボーナスセンス",
+      "name": "パワー20%アップ EP30%アップ",
+      "description": "選手のパワー値が20%アップ EP獲得量が30%アップ",
+      "effects": {
+        "POW": 20
+      },
+      "icon": "images/sense_icons/attr_first/POW.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-2d264843c2c87fe1",
+      "type": "ボーナスセンス",
+      "name": "パワー20%アップ+",
+      "description": "選手のパワー値が20/25/30%アップ",
+      "effects": {
+        "POW": 20
+      },
+      "icon": "images/sense_icons/gold/POW.png",
+      "enabled": true,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "POW": [
+          20,
+          25,
+          30
+        ]
+      }
+    },
+    {
+      "id": "sense-4848b8a45e580c7b",
+      "type": "ボーナスセンス",
+      "name": "パワー20%アップ+ EP30%アップ+",
+      "description": "選手のパワー値が20/25/30%アップ EP獲得量が30/35/40%アップ",
+      "effects": {
+        "POW": 20
+      },
+      "icon": "images/sense_icons/attr_first/POW.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス",
+      "linkEffects": {
+        "POW": [
+          20,
+          25,
+          30
+        ]
+      }
+    },
+    {
+      "id": "sense-71a6e58f1ec7fac0",
+      "type": "ボーナスセンス",
+      "name": "ファイター",
+      "description": "後半開始時にスタミナが回復し、ディフェンス値が30%アップ",
+      "effects": {
+        "DEF": 30
+      },
+      "icon": "images/sense_icons/bonus/fighter.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-8c53234860b78b7b",
+      "type": "ボーナスセンス",
+      "name": "フィニッシャー",
+      "description": "後半開始時にスタミナが回復し、オフェンス値が30%アップ",
+      "effects": {
+        "OFE": 30
+      },
+      "icon": "images/sense_icons/bonus/finisher.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-af921344ea0e684d",
+      "type": "ボーナスセンス",
+      "name": "ボックストゥボックス",
+      "description": "スタミナ値が20%アップし、サポート意識と攻撃意識、守備意識がアップする",
+      "effects": {
+        "STA": 20
+      },
+      "icon": "images/sense_icons/bonus/box_to_box.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-3c28a133232cf5e2",
+      "type": "ボーナスセンス",
+      "name": "ラインブレイカー",
+      "description": "オフェンス値が20%アップし、オフザボールにて、攻撃意識とダッシュスピードがアップする",
+      "effects": {
+        "OFE": 20
+      },
+      "icon": "images/sense_icons/bonus/line_breaker.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-afd2d2011e65c339",
+      "type": "ボーナスセンス",
+      "name": "仕掛け人",
+      "description": "後半開始時に同点の場合、スタミナが回復し、オフェンス値とテクニック値が30%アップ",
+      "effects": {
+        "TEC": 30
+      },
+      "icon": "images/sense_icons/bonus/shikakenin.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-f8c489a3a86f1a2e",
+      "type": "ボーナスセンス",
+      "name": "勝者のメンタリティ",
+      "description": "後半開始時にリードしている場合、能力が大幅アップ",
+      "effects": {},
+      "icon": "images/sense_icons/bonus/winner_mentality.png",
+      "enabled": false,
+      "source": "DB内の登録済みセンス"
+    },
+    {
+      "id": "sense-43eae1efc77db9d6",
+      "type": "付与センス",
+      "name": "ディフェンス5％アップ+",
+      "description": "選手のディフェンス値が5/10/15％アップ",
+      "effects": {
+        "DEF": 5
+      },
+      "linkEffects": {},
+      "icon": "images/sense_icons/blue/DEF.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-161b8f63ba2842e6",
+      "type": "付与センス",
+      "name": "オフェンス5％アップ+",
+      "description": "選手のオフェンス値が5/10/15%アップ",
+      "effects": {
+        "OFE": 5
+      },
+      "linkEffects": {
+        "OFE": [
+          5,
+          10,
+          15
+        ]
+      },
+      "icon": "images/sense_icons/blue/OFE.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-1dca22fd12acf66f",
+      "type": "付与センス",
+      "name": "パワー5％アップ+",
+      "description": "選手のパワー値が5/10/15%アップ",
+      "effects": {
+        "POW": 5
+      },
+      "linkEffects": {
+        "POW": [
+          5,
+          10,
+          15
+        ]
+      },
+      "icon": "images/sense_icons/blue/POW.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-722eca54356f9621",
+      "type": "付与センス",
+      "name": "スピード5％アップ+",
+      "description": "選手のスピード値が5/10/15%アップ",
+      "effects": {
+        "SPD": 5
+      },
+      "linkEffects": {
+        "SPD": [
+          5,
+          10,
+          15
+        ]
+      },
+      "icon": "images/sense_icons/blue/SPD.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-39aca8150252b712",
+      "type": "付与センス",
+      "name": "スタミナ5％アップ+",
+      "description": "選手のスタミナ値が5/10/15%アップ",
+      "effects": {
+        "STA": 5
+      },
+      "linkEffects": {
+        "STA": [
+          5,
+          10,
+          15
+        ]
+      },
+      "icon": "images/sense_icons/blue/STA.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-1d602ec665ed0aef",
+      "type": "付与センス",
+      "name": "テクニック5％アップ+",
+      "description": "選手のテクニック値が5/10/15%アップ",
+      "effects": {
+        "TEC": 5
+      },
+      "linkEffects": {
+        "TEC": [
+          5,
+          10,
+          15
+        ]
+      },
+      "icon": "images/sense_icons/blue/TEC.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-0ce83fb33de8284e",
+      "type": "付与センス",
+      "name": "ディフェンス10%アップ+",
+      "description": "選手のディフェンス値が10/15/20%アップ",
+      "effects": {
+        "DEF": 10
+      },
+      "linkEffects": {
+        "DEF": [
+          10,
+          15,
+          20
+        ]
+      },
+      "icon": "images/sense_icons/bronze/DEF.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-141767478427274f",
+      "type": "付与センス",
+      "name": "オフェンス10%アップ+",
+      "description": "選手のオフェンス値が10/15/20%アップ",
+      "effects": {
+        "OFE": 10
+      },
+      "linkEffects": {
+        "OFE": [
+          10,
+          15,
+          20
+        ]
+      },
+      "icon": "images/sense_icons/bronze/OFE.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-ef2ea296ec39bbca",
+      "type": "付与センス",
+      "name": "パワー10%アップ+",
+      "description": "選手のパワー値が10/15/20%アップ",
+      "effects": {
+        "POW": 10
+      },
+      "linkEffects": {
+        "POW": [
+          10,
+          15,
+          20
+        ]
+      },
+      "icon": "images/sense_icons/bronze/POW.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-670eca55e658458d",
+      "type": "付与センス",
+      "name": "スピード10%アップ+",
+      "description": "選手のスピード値が10/15/20%アップ",
+      "effects": {
+        "SPD": 10
+      },
+      "linkEffects": {
+        "SPD": [
+          10,
+          15,
+          20
+        ]
+      },
+      "icon": "images/sense_icons/bronze/SPD.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-7eb656e7bda5843f",
+      "type": "付与センス",
+      "name": "スタミナ10%アップ+",
+      "description": "選手のスタミナ値が10/15/20%アップ",
+      "effects": {
+        "STA": 10
+      },
+      "linkEffects": {
+        "STA": [
+          10,
+          15,
+          20
+        ]
+      },
+      "icon": "images/sense_icons/bronze/STA.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-347b7cfe6fcf3981",
+      "type": "付与センス",
+      "name": "テクニック10%アップ+",
+      "description": "選手のディフェンス値が10/15/20%アップ",
+      "effects": {
+        "TEC": 10
+      },
+      "linkEffects": {},
+      "icon": "images/sense_icons/bronze/TEC.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-2da53c4f685a8aee",
+      "type": "ボーナスセンス",
+      "name": "EP50%アップ オフェンス15%アップ",
+      "description": "EP獲得量が50%アップ 選手のオフェンス値が15%アップ",
+      "effects": {
+        "OFE": 15
+      },
+      "linkEffects": {},
+      "icon": "images/sense_icons/ep_first/OFE.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-85f91ec49a573682",
+      "type": "ボーナスセンス",
+      "name": "EP50%アップ スピード15%アップ",
+      "description": "EP獲得量が50%アップ 選手のスピード値が15%アップ",
+      "effects": {
+        "SPD": 15
+      },
+      "linkEffects": {},
+      "icon": "images/sense_icons/ep_first/SPD.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-853e7cf87fe86e1a",
+      "type": "ボーナスセンス",
+      "name": "EP50%アップ パワー15%アップ",
+      "description": "EP獲得量が50%アップ 選手のパワー値が15%アップ",
+      "effects": {
+        "POW": 15
+      },
+      "linkEffects": {},
+      "icon": "images/sense_icons/ep_first/POW.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-702fa482cd9c1bac",
+      "type": "ボーナスセンス",
+      "name": "EP50%アップ スタミナ15%アップ",
+      "description": "EP獲得量が50%アップ 選手のスタミナ値が15%アップ",
+      "effects": {
+        "STA": 15
+      },
+      "linkEffects": {},
+      "icon": "images/sense_icons/ep_first/STA.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-8067858539ca7500",
+      "type": "ボーナスセンス",
+      "name": "EP50%アップ テクニック15%アップ",
+      "description": "EP獲得量が50%アップ 選手のテクニック値が15%アップ",
+      "effects": {
+        "TEC": 15
+      },
+      "linkEffects": {},
+      "icon": "images/sense_icons/ep_first/TEC.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-896253e65f9ba91d",
+      "type": "ボーナスセンス",
+      "name": "EP50%アップ ディフェンス15%アップ",
+      "description": "EP獲得量が50%アップ 選手のディフェンス値が15%アップ",
+      "effects": {
+        "DEF": 15
+      },
+      "linkEffects": {},
+      "icon": "images/sense_icons/ep_first/DEF.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-923df8b17e0c4b5b",
+      "type": "付与センス",
+      "name": "忍界の希望",
+      "description": "選手のスタミナ値とテクニック値が15%アップ",
+      "effects": {
+        "TEC": 15,
+        "STA": 15
+      },
+      "linkEffects": {},
+      "icon": "images/sense_icons/collaboration/01.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-15763c66fb4dd8d5",
+      "type": "付与センス",
+      "name": "もう一人の主人公",
+      "description": "選手のテクニック値とスピード値が15%アップ",
+      "effects": {
+        "TEC": 15,
+        "SPD": 15
+      },
+      "linkEffects": {},
+      "icon": "images/sense_icons/collaboration/02.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-32a4dbb05b232665",
+      "type": "付与センス",
+      "name": "最強の師",
+      "description": "選手のスピード値とパワー値が15%アップ",
+      "effects": {
+        "POW": 15,
+        "SPD": 15
+      },
+      "linkEffects": {},
+      "icon": "images/sense_icons/collaboration/03.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-d7cb72fed2ec1b3d",
+      "type": "付与センス",
+      "name": "絶望と希望",
+      "description": "選手のパワー値とスタミナ値が15%アップ",
+      "effects": {
+        "POW": 15,
+        "STA": 15
+      },
+      "linkEffects": {},
+      "icon": "images/sense_icons/collaboration/04.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-3762f29e57496bc5",
+      "type": "付与センス",
+      "name": "バルサの鉄人",
+      "description": "選手のパワー値とスピード値が15％アップ",
+      "effects": {
+        "POW": 15,
+        "SPD": 15
+      },
+      "linkEffects": {},
+      "icon": "images/sense_icons/collaboration/08.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-e5df6996c93ba006",
+      "type": "付与センス",
+      "name": "バルサの魔法使い",
+      "description": "選手のスタミナ値とテクニック値が15%アップ",
+      "effects": {
+        "TEC": 15,
+        "STA": 15
+      },
+      "linkEffects": {},
+      "icon": "images/sense_icons/collaboration/09.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-f29f75fe1e04a877",
+      "type": "付与センス",
+      "name": "バルサの神童",
+      "description": "選手のスピード値とテクニック値が15%アップ",
+      "effects": {
+        "TEC": 15,
+        "SPD": 15
+      },
+      "linkEffects": {},
+      "icon": "images/sense_icons/collaboration/10.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-f4937dbe320dd133",
+      "type": "付与センス",
+      "name": "FCバイエルンミュンヘンナンバー10",
+      "description": "選手のスピード値とテクニック値が15%アップ",
+      "effects": {
+        "TEC": 15,
+        "SPD": 15
+      },
+      "linkEffects": {},
+      "icon": "images/sense_icons/collaboration/05.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-dd8b79692ff68d21",
+      "type": "付与センス",
+      "name": "FCバイエルンミュンヘンナンバー7",
+      "description": "選手のパワー値とスピード値が15%アップ",
+      "effects": {
+        "POW": 15,
+        "SPD": 15
+      },
+      "linkEffects": {},
+      "icon": "images/sense_icons/collaboration/06.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-67efd3c12c9e220b",
+      "type": "付与センス",
+      "name": "FCバイエルンミュンヘンナンバー6",
+      "description": "選手のスタミナ値とテクニック値が15%アップ",
+      "effects": {
+        "TEC": 15,
+        "STA": 15
+      },
+      "linkEffects": {},
+      "icon": "images/sense_icons/collaboration/07.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-cf091b625e945503",
+      "type": "付与センス",
+      "name": "EP10%アップ",
+      "description": "EP獲得量が10％アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/ep_only/blue.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-dbcd8ea719a269a7",
+      "type": "付与センス",
+      "name": "EP20%アップ",
+      "description": "EP獲得量が20％アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/ep_only/bronze.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-3fb8cd1aae7eabe3",
+      "type": "付与センス",
+      "name": "EP30%アップ",
+      "description": "EP獲得量が30％アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/ep_only/silver.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-1788cce72753ed37",
+      "type": "ボーナスセンス",
+      "name": "EP50%アップ",
+      "description": "EP獲得量が50%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/ep_only/gold.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-1c2883f0fb50820f",
+      "type": "付与センス",
+      "name": "EP10%アップ+",
+      "description": "EP獲得量が10/15/20%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/ep_only/blue.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-171a3d312f58eba3",
+      "type": "付与センス",
+      "name": "EP20%アップ+",
+      "description": "EP獲得量が20/25/30%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/ep_only/bronze.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-8d100cf459076e05",
+      "type": "付与センス",
+      "name": "EP30％アップ+",
+      "description": "EP獲得量が30/35/40%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/ep_only/silver.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-c56fe36bdbe80198",
+      "type": "ボーナスセンス",
+      "name": "キーパースキル強化A+",
+      "description": "キーパー系のAスペシャルスキルを強化し、EP獲得量が25/30/35%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/bonus/keeper_skill_a.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-977f3fbc90e21ded",
+      "type": "ボーナスセンス",
+      "name": "シュートスキル強化A+",
+      "description": "シュート系のAスペシャルスキルを強化し、EP獲得量が25/30/35%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/bonus/shoot_skill_a.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-8da255c0c17820fa",
+      "type": "ボーナスセンス",
+      "name": "ディフェンススキル強化A+",
+      "description": "ディフェンス系のスペシャルスキルを強化し、EP獲得量が25/30/35%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/bonus/defence_skill_a.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-f921f0a0cbd40b47",
+      "type": "付与センス",
+      "name": "ドリブルスキル強化A",
+      "description": "ドリブル系のAスペシャルスキルを強化し、EP獲得量が25%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/reference/dribble.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-ea121a2405c333fb",
+      "type": "付与センス",
+      "name": "ドリブルスキル強化A+",
+      "description": "ドリブル系のAスペシャルスキルを強化し、EP獲得量が25/30/35%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/reference/dribble.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-85275b037c7ef144",
+      "type": "付与センス",
+      "name": "パススキル強化A",
+      "description": "パス系のAスペシャルスキルを強化し、EP獲得量が25%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/reference/pass_skill.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-01eb3a8b1dbecd88",
+      "type": "付与センス",
+      "name": "パススキル強化A+",
+      "description": "パス系のAスペシャルスキルを強化し、EP獲得量が25/30/35%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/reference/pass_skill.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-f715e8de99c1772f",
+      "type": "付与センス",
+      "name": "ポジションスキル強化A",
+      "description": "ポジション系のAスペシャルスキルを強化し、EP獲得量が25%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/reference/position.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-3f716f8e07bac194",
+      "type": "付与センス",
+      "name": "ポジションスキル強化A+",
+      "description": "ポジション系のAスペシャルスキルを強化し、EP獲得量が25/30/35%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/reference/position.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    }
+  ],
+  "deletedIds": [
+    "asset-01f96e162b17a75b",
+    "asset-20aba186ca2e62a1",
+    "asset-315d7a63c8f79da1",
+    "asset-3d661706e6905c94",
+    "asset-4b0976231c1d4810",
+    "asset-4e666accdcfaae6a",
+    "asset-517a95de43a160de",
+    "asset-54e4777a1539ca6c",
+    "asset-70552159045abf44",
+    "asset-72ee9c79c091365f",
+    "asset-73f8edf0ef3f52dc",
+    "asset-7f2fb4bf1edb5d54",
+    "asset-83ea8f10e19ac78e",
+    "asset-8cad8c89ccbaccbd",
+    "asset-98603af8fa6a6ee4",
+    "asset-a069ad8d211389e5",
+    "asset-a1af905d35572719",
+    "asset-adf955c1de585178",
+    "asset-b0235429906f3f3e",
+    "asset-b622275a82ac066b",
+    "asset-be272c213c35dc35",
+    "asset-bfa993a85daf35f1",
+    "asset-cff5d742f27cb213",
+    "asset-d285e06a2a3c3f16",
+    "asset-d9dbdc95825c2e6b",
+    "asset-e33d997cf6c8994a",
+    "asset-edbe4c885f07a2ca",
+    "asset-f50880939816e7e5",
+    "sense-0ef2028ce669d49c",
+    "sense-38ce25255da2ed58",
+    "sense-5a1e098a5c583445",
+    "sense-659a014fd277c2b0",
+    "sense-84ab8c584f5494fa",
+    "sense-b5d98d23c680e436",
+    "sense-e62ff5f7115919d8",
+    "sense-e885d33a7d93400a",
+    "sense-f32f07eb42327e51",
+    "sense-f5005f4c95c5f880"
+  ],
+  "deletedSenses": [
+    "付与センス|EP5%アップ",
+    "付与センス|ディフェンス5％アップ",
+    "画像のみ（効果未登録）|画像未登録：blue/DEF.png",
+    "画像のみ（効果未登録）|画像未登録：blue/OFE.png",
+    "画像のみ（効果未登録）|画像未登録：blue/POW.png",
+    "画像のみ（効果未登録）|画像未登録：blue/SPD.png",
+    "画像のみ（効果未登録）|画像未登録：blue/STA.png",
+    "画像のみ（効果未登録）|画像未登録：blue/TEC.png",
+    "画像のみ（効果未登録）|画像未登録：bronze/DEF.png",
+    "画像のみ（効果未登録）|画像未登録：bronze/OFE.png",
+    "画像のみ（効果未登録）|画像未登録：bronze/POW.png",
+    "画像のみ（効果未登録）|画像未登録：bronze/SPD.png",
+    "画像のみ（効果未登録）|画像未登録：bronze/STA.png",
+    "画像のみ（効果未登録）|画像未登録：bronze/TEC.png",
+    "画像のみ（効果未登録）|画像未登録：collaboration/01.png",
+    "画像のみ（効果未登録）|画像未登録：collaboration/02.png",
+    "画像のみ（効果未登録）|画像未登録：collaboration/03.png",
+    "画像のみ（効果未登録）|画像未登録：collaboration/04.png",
+    "画像のみ（効果未登録）|画像未登録：collaboration/05.png",
+    "画像のみ（効果未登録）|画像未登録：collaboration/06.png",
+    "画像のみ（効果未登録）|画像未登録：collaboration/07.png",
+    "画像のみ（効果未登録）|画像未登録：collaboration/08.png",
+    "画像のみ（効果未登録）|画像未登録：collaboration/09.png",
+    "画像のみ（効果未登録）|画像未登録：collaboration/10.png",
+    "画像のみ（効果未登録）|画像未登録：ep_only/blue.png",
+    "画像のみ（効果未登録）|画像未登録：ep_only/bronze.png",
+    "画像のみ（効果未登録）|画像未登録：ep_only/silver.png",
+    "画像のみ（効果未登録）|画像未登録：reference/dribble.png",
+    "画像のみ（効果未登録）|画像未登録：reference/pass_skill.png",
+    "画像のみ（効果未登録）|画像未登録：reference/position.png"
+  ],
+  "deletedAssetPaths": []
+}
