@@ -47,6 +47,7 @@ header{padding-top:76px!important;text-align:center}
 
 /* 試算専用：DB本体は編集せず、センス名と各スロットLvを組み合わせる */
 .sense-slot .sense-slot-level{width:100%;min-width:0;font-size:12px;padding:6px 3px}
+.sense-slot-level-unavailable{color:#aebed3;font-size:10px;line-height:1.4;text-align:center;padding:6px 3px}
 .sense-calc-config{margin-top:13px;padding:12px;border:1px solid #4b6989;border-radius:10px;background:#0b1b2e}
 .sense-calc-config .controls{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);align-items:end}
 .sense-calc-config .controls>div{min-width:0}
@@ -322,6 +323,13 @@ for(const effect of ['オフェンス','ディフェンス']){
 function registeredTeamSkill(card){return teamSkillByName.get(normSkillName(card.teamSkill))||null;}
 /* ONのセンスは数値UPの有無にかかわらず候補に出す。効果不明を推測計算しない。 */
 function getSelectableSenses(){return SELECTABLE_SENSE_CATALOG.filter(x=>x.enabled===true&&typeof x.name==='string'&&x.name.trim());}
+/* The first calendar year in the card's season is its eligibility year (e.g. 2026/27 -> 2026). */
+function cardSeasonStartYear(card){
+ const match=String(card?.season??'').normalize('NFKC').match(/(?:19|20)\d{2}/);
+ return match?Number(match[0]):null;
+}
+function canEnhanceSenseSlots(card){const year=cardSeasonStartYear(card);return year!==null&&year>=2020;}
+function canEquipAdditionalSenses(card){const year=cardSeasonStartYear(card);return year!==null&&year>=2026;}
 function defaultSenseBuild(c){return {selected:Array(Number(c.grade)>=85?3:2).fill(''),levels:Array(Number(c.grade)>=85?4:3).fill(0),phase:'normal',customEpChoices:{}};}
 /* EPレベルはカードIDごとに一時保持し、EP計算に使用する。 */
 const EP_LEVEL_RATES=Object.freeze([0,1,2,3,5,10]);
@@ -376,26 +384,35 @@ function customEpChooser(card,sense,slot){
  const choice=getSenseBuild(card).customEpChoices?.[slot]??0;
  return `<label class="custom-ep-choice-label">カスタムEP効果<select class="custom-ep-choice" data-custom-ep-slot="${slot}" aria-label="${esc(sense.name)}のEP効果">${rows.map((option,i)=>`<option value="${i}" ${i===Number(choice)?'selected':''}>${esc(customEpLabel(option))}</option>`).join('')}</select></label>`;
 }
-function epSenseFactors(card,skill){
+// Apply each equipped normal sense independently, preserving a single decimal place.
+// This is the current observed-value hypothesis, not a confirmed game-engine rule.
+function epRoundUp(value,decimals=0){
+ const unit=10**decimals,scaled=value*unit;
+ // Avoid a floating-point representation error near an exact integer boundary.
+ return Math.ceil(scaled-Number.EPSILON*Math.max(1,Math.abs(scaled))*4)/unit;
+}
+function epApplySenseSlots(card,skill,epBeforeSenses){
  const build=getSenseBuild(card),avail=new Map(getSelectableSenses().map(x=>[x.id,x]));
  const equipped=build.selected.map((id,i)=>({sense:avail.get(id),level:build.levels[i],slot:i})).filter(x=>x.sense);
  const own=fixedSenseObject(card);
  if(own)equipped.push({sense:own,level:build.levels.at(-1),slot:build.levels.length-1});
  const link=favoriteBoost(card);
- let factor=1;
+ let ep=epBeforeSenses;
  for(const {sense,level,slot} of equipped){
   if(isHalftimeSense(sense)&&build.phase!=='halftime')continue;
   const enhancement=SLOT_ENHANCEMENT[Number(level)]??0;
+  let slotFactor=1;
   if(sense.type==='カスタムセンス'){
    const options=resolveCustomEpOptions(sense);
    if(options.length){
     const requested=Number(build.customEpChoices?.[slot]??0);
     const opt=options[Number.isInteger(requested)&&requested>=0&&requested<options.length?requested:0];
     if(opt.kind==='skill'&&(opt.group!==skill.group||opt.rank!==String(skill.rank).toUpperCase()))continue;
-    factor*=1+Number(opt.rate)*(1+enhancement/100)/100;
+    slotFactor=1+Number(opt.rate)*(1+enhancement/100)/100;
+    if(slotFactor!==1)ep=epRoundUp(ep*slotFactor,1);
     continue;
    }
-   // Keep previously registered custom effects active until the new choices are entered.
+   // Keep previously registered custom effects active until choices are entered.
   }
   const name=String(sense.name||'').normalize('NFKC');
   const desc=String(sense.description||'').normalize('NFKC');
@@ -410,10 +427,12 @@ function epSenseFactors(card,skill){
   if(!rates.length)rates=epReadPercentRates(name,'ep');
   for(const ratesForSense of rates){
    const rate=epRatesForLink(ratesForSense,link);
-   if(rate!==null)factor*=1+Number(rate)*(1+enhancement/100)/100;
+   if(rate!==null)slotFactor*=1+Number(rate)*(1+enhancement/100)/100;
   }
+  // One rounding point per equipped slot, not a combined product of all slots.
+  if(slotFactor!==1)ep=epRoundUp(ep*slotFactor,1);
  }
- return factor;
+ return ep;
 }
 function epApplyAdditionalSenses(card,epBeforeAdditional){
  // Each ADD EP+20% is multiplied separately, rounding up immediately after the slot.
@@ -436,9 +455,9 @@ function calculateSkillEp(card,entry,unlock){
  if(!mastery||!Number.isFinite(Number(mastery.ura_ep)))return null;
  const link=favoriteBoost(card)*50; // 0/50/100, same current/past club-link check as ability values
  const epFactor=1+EP_LEVEL_RATES[getEpLevel(card)]/100;
- const senseFactor=epSenseFactors(card,mastery);
- const epBeforeAdditional=(base*Number(mastery.ura_ep)+link)*epFactor*senseFactor;
- return epApplyAdditionalSenses(card,epBeforeAdditional);
+ const epBeforeSenses=(base*Number(mastery.ura_ep)+link)*epFactor;
+ const epBeforeAdditional=epApplySenseSlots(card,mastery,epBeforeSenses);
+ return epRoundUp(epApplyAdditionalSenses(card,epBeforeAdditional),0);
 }
 const epFormat=n=>new Intl.NumberFormat('ja-JP',{maximumFractionDigits:2}).format(n);
 function epSkillHTML(card,kind,entry,index){
@@ -461,7 +480,10 @@ function updateDetailEp(card){
 const senseBuildCache=new Map();
 function getSenseBuild(c){
  if(!senseBuildCache.has(c.id))senseBuildCache.set(c.id,defaultSenseBuild(c));
- return senseBuildCache.get(c.id);
+ const build=senseBuildCache.get(c.id);
+ // Season-ineligible cards always calculate at Lv0, even if stale in-memory data exists.
+ if(!canEnhanceSenseSlots(c))build.levels.fill(0);
+ return build;
 }
 /* センス装着情報はセッション内メモリのみ。localStorageにもDBにも保存しない。 */
 function saveSenseBuild(c){}
@@ -751,6 +773,11 @@ function applySenseGallerySelection(id){
 let ADDITIONAL_SENSE_CATALOG=[];
 const additionalBuildCache=new Map();
 function getAdditionalBuild(card){
+ // No ADD SENSE slots/effects exist on cards before the 2026 season.
+ if(!canEquipAdditionalSenses(card)){
+  additionalBuildCache.delete(card.id);
+  return [];
+ }
  const length=Number(card.grade)>=85?3:2;
  const old=additionalBuildCache.get(card.id);
  if(!old||old.length!==length){const fresh=Array(length).fill('');additionalBuildCache.set(card.id,fresh);return fresh;}
@@ -767,6 +794,9 @@ function additionalSlotInnerHTML(slot,id){
  (candidate&&additionalCanTurnOff(candidate)?`<label class="additional-sense-toggle"><input type="checkbox" data-additional-ability="${slot}" ${additionalAbilityIsEnabled(cards.find(c=>c.id===selectedId)||{id:''},slot)?'checked':''}><span>追加効果を有効にする（OFFでもEP+20%）</span></label>`:'');
 }
 function additionalSlotsHTML(card){
+ if(!canEquipAdditionalSenses(card)){
+  return `<section class="additional-sense-section detail-section"><h3>アディショナルセンス</h3><p class="additional-sense-help">2026シーズン以降のカードのみ装着できます。このカードは対象外です。</p></section>`;
+ }
  const selected=getAdditionalBuild(card);
  return `<section class="additional-sense-section detail-section"><h3>アディショナルセンス（${selected.length}枠）</h3>`+
  `<p class="additional-sense-help">通常センスとは別の装着枠です。スロット強化なし。EP獲得量も計算に反映。対象のアディショナルセンスは、装着したまま追加効果だけOFFにできます。</p>`+
@@ -824,6 +854,10 @@ function applyAdditionalChoice(id){
 }
 
 function senseSlotsHTML(card){
+  const canEnhance=canEnhanceSenseSlots(card);
+  const slotLevelControl=(i,level)=>canEnhance
+   ?`<label for="sense-level-${i}">スロット強化</label><select class="sense-slot-level" id="sense-level-${i}" data-slot-level="${i}">${slotLevelOptions(level)}</select>`
+   :`<div class="sense-slot-level-unavailable">スロット強化対象外（2020シーズン以降のみ）</div>`;
   const sense=card.sense&&card.sense.name?card.sense:(card.bonusSense?{type:'ボーナスセンス',...card.bonusSense}:null);
   const build=getSenseBuild(card),total=Number(card.grade)>=85?4:3;
   const choiceById=new Map(getSelectableSenses().map(x=>[x.id,x]));
@@ -832,14 +866,14 @@ function senseSlotsHTML(card){
    const chosen=choiceById.get(build.selected[i]);const source=chosen?senseIconForSelectable(chosen):'';
    const art=source?`<img src="${esc(source)}" alt="${esc(chosen.name)}">`:'<div class="sense-slot-empty" aria-hidden="true">＋</div>';
    return `<div class="sense-slot sense-slot-unset"><div class="sense-slot-label">付与スロット${i+1}</div><button type="button" class="sense-slot-art sense-slot-art-button" data-open-sense-gallery="${i}" aria-label="付与スロット${i+1}のセンスを画像から選択">${art}</button>`+
-     `<label for="sense-level-${i}">スロット強化</label><select class="sense-slot-level" id="sense-level-${i}" data-slot-level="${i}">${slotLevelOptions(levels[i])}</select>`+
+     slotLevelControl(i,levels[i])+
      `<div class="sense-slot-name">${chosen?senseEffectHTML(chosen.name):'未選択'}</div>${chosen?customEpChooser(card,chosen,i):''}${chosen?.description?`<div class="sense-slot-description">${senseDescriptionHTML(chosen.description)}</div>`:''}</div>`;
   }).join('');
   const source=senseIconPath(sense),kind=sense?.type||'固有センス';
   const art=source?`<img src="${esc(source)}" alt="${esc(sense?.name||'固定センス')}のセンス画像" loading="lazy">`:'<div class="sense-slot-no-image">画像<br>未登録</div>';
   const fixed=`<div class="sense-slot sense-slot-own"><div class="sense-slot-label">${esc(kind)}（固定）</div><div class="sense-slot-art">${art}</div><div class="sense-slot-name">${senseEffectHTML(sense?.name||'未登録')}</div>${sense?customEpChooser(card,sense,total-1):''}`+
-    `<label for="sense-level-${total-1}">スロット強化</label><select class="sense-slot-level" id="sense-level-${total-1}" data-slot-level="${total-1}">${slotLevelOptions(levels.at(-1))}</select></div>`;
-  return `<section class="sense-slot-section detail-section"><h3>センススロット（${total}枠）</h3><p class="sense-slot-help">左${total-1}枠は自由選択／右端の${esc(kind)}は変更不可。各枠のLv0は強化なし（元のセンス効果は有効）。</p>`+
+    slotLevelControl(total-1,levels.at(-1))+`</div>`;
+  return `<section class="sense-slot-section detail-section"><h3>センススロット（${total}枠）</h3><p class="sense-slot-help">左${total-1}枠は自由選択／右端の${esc(kind)}は変更不可。${canEnhance?'各枠のLv0は強化なし（元のセンス効果は有効）。':'2020シーズンより前のカードはスロット強化不可（センス自体の効果は有効）。'}</p>`+
     `<div class="sense-slots" style="--sense-slot-count:${total}">${changeables}${fixed}</div>`+
     `<div id="sensePhaseControls" class="sense-phase-controls hidden"><label for="sensePhaseMode">後半開始時のセンス効果</label><select id="sensePhaseMode"><option value="normal" ${build.phase!=='halftime'?'selected':''}>通常時（後半開始時効果なし）</option><option value="halftime" ${build.phase==='halftime'?'selected':''}>後半開始時（発動条件が成立した場合）</option></select><p class="muted">後半開始時に発動する能力UPだけを切り替えます。「同点の場合」「リードしている場合」は条件成立を仮定します。スタミナ回復など数値未定義の効果は計算しません。</p></div>`+
     `<button type="button" class="sense-reset-btn" id="resetEquippedSenses">選択センス・スロットLv・時間帯をリセット</button></section>`;
@@ -980,7 +1014,7 @@ function getChoice(prefix){const els=[...document.querySelectorAll(`[data-contro
  });
  $('detailBody').querySelectorAll('[data-slot-level]').forEach(el=>el.addEventListener('change',()=>{
   const c=cards.find(x=>x.id===selectedId);if(!c)return;const build=getSenseBuild(c);
-  if(el.hasAttribute('data-slot-level'))build.levels[Number(el.dataset.slotLevel)]=Number(el.value);
+  if(el.hasAttribute('data-slot-level')&&canEnhanceSenseSlots(c))build.levels[Number(el.dataset.slotLevel)]=Number(el.value);
   saveSenseBuild(c);updateDetail();
  }));updateDetail();$('detail').querySelector('.detail-modal-content').scrollTop=0}
 function updateCompareButton(){const label=`比較を開く（${comp.length}/5）`;$('openCompare').disabled=!comp.length;$('openCompare').textContent=label;$('floatingCompare').textContent=label;$('floatingCompareActions').classList.toggle('hidden',!comp.length||!$('compareModal').classList.contains('hidden'))}
