@@ -1,0 +1,914 @@
+{
+  "version": 1,
+  "senses": [
+    {
+      "name": "パサー",
+      "description": "EP20%アップ パスレンジとパス優先度アップ(重複効果なし)",
+      "effects": {},
+      "enabled": true,
+      "id": "additional-f6ec1e801929444aa2db72c4532e6de6",
+      "icon": "images/additional_sense_icons/user/3ccee6217c4a4ada8f6f49165b7065bd.png"
+    },
+    {
+      "name": "ドリブラー",
+      "description": "EP20％アップ ドリブル優先度アップ(重複効果なし)",
+      "effects": {},
+      "enabled": true,
+      "id": "additional-dabbdffd24d14034bd460d11ac11b4c5",
+      "icon": "images/additional_sense_icons/user/88db05229c2f4375ab7407a30c8539f4.png"
+    },
+    {
+      "name": "ワンタッチプレーヤー",
+      "description": "EP20%アップ ダイレクトプレー意識アップ(重複効果なし)",
+      "effects": {},
+      "enabled": true,
+      "id": "additional-3a1b21824ad54ae4abe09e9e48e2a513",
+      "icon": "images/additional_sense_icons/user/1650ad8aae2644d4a62a0535f50fe6fd.png"
+    },
+    {
+      "name": "タフネス",
+      "description": "EP20%アップ 怪我耐性アップ(重複効果なし)",
+      "effects": {},
+      "enabled": true,
+      "id": "additional-e85ac38524dd460883ec47b79ed48306",
+      "icon": "images/additional_sense_icons/user/4e1ff8c4013346f899ecea22d0a8a3ce.png"
+    },
+    {
+      "name": "ロングフィード",
+      "description": "EP20%アップ フィードレンジとフィード優先度アップ(重複効果なし)",
+      "effects": {},
+      "enabled": true,
+      "id": "additional-4ec07003f9b5412596a10733c28e4db1",
+      "icon": "images/additional_sense_icons/user/f6e749891d4e46158aa529c70e3d647d.png"
+    },
+    {
+      "name": "セーフティ",
+      "description": "EP20%アップ 自陣において、安全なパスが増える&TEC30%アップ(重複効果なし)",
+      "effects": {
+        "TEC": 30
+      },
+      "enabled": true,
+      "id": "additional-61a03b204d4a420d8e38305af2ed18e3",
+      "icon": "images/additional_sense_icons/user/102208eb9df44ec5b5bdf1e1767c6054.png"
+    },
+    {
+      "name": "クロッサー",
+      "description": "EP20%アップ クロスレンジとクロス優先度アップ(重複効果なし)",
+      "effects": {},
+      "enabled": true,
+      "id": "additional-ffceab1007f74d04a3edc0171138bfd4",
+      "icon": "images/additional_sense_icons/user/05ed4d1559724a37b7785c0252299d93.png"
+    },
+    {
+      "name": "快速",
+      "description": "EP20%アップ ダッシュ速度アップ(重複効果なし)",
+      "effects": {},
+      "enabled": true,
+      "id": "additional-6ac32d3c45bb4fd8b77c4ba6ad7b910c",
+      "icon": "images/additional_sense_icons/user/96180060bc3341a5a45edcf35fd2ad74.png"
+    },
+    {
+      "name": "リフレクス",
+      "description": "EP20%アップ GKセンスアップ(重複効果なし)",
+      "effects": {},
+      "enabled": true,
+      "id": "additional-88c7bab5499044ec8a309bd5749458d0",
+      "icon": "images/additional_sense_icons/user/54faf0fc5b4144b883bac870b196118b.png"
+    },
+    {
+      "name": "GK攻撃ブースト",
+      "description": "EP20%アップ 攻撃センスアップ(重複効果なし)",
+      "effects": {},
+      "enabled": true,
+      "id": "additional-cfb002272eb84e419f70e5131c34d350",
+      "icon": "images/additional_sense_icons/user/a33873853ae545c785fbfefe88ebe704.png"
+    },
+    {
+      "name": "アンティシペーション",
+      "description": "EP20%アップ 守備センスアップ(重複効果なし)",
+      "effects": {},
+      "enabled": true,
+      "id": "additional-935be059bfda4e57b52b7dc97358ba5f",
+      "icon": "images/additional_sense_icons/user/c1f7cf8b20d04310922a90c23421cfad.png"
+    },
+    {
+      "name": "エアバトラー",
+      "description": "EP20%アップ 守備時のヘディング頻度アップ(重複効果なし)",
+      "effects": {},
+      "enabled": true,
+      "id": "additional-1c9ba05e09f84be9aa1080bb4a756251",
+      "icon": "images/additional_sense_icons/user/70a0984e22134e1cb189e45e28ca8c83.png"
+    },
+    {
+      "name": "ハイスピードドリブラー",
+      "description": "EP20%アップ ドリブル速度アップ(重複効果なし)",
+      "effects": {},
+      "enabled": true,
+      "id": "additional-1956fad578434d0989027cc1d7fabe01",
+      "icon": "images/additional_sense_icons/user/46444cf374894093837e79cdfa6759ec.png"
+    },
+    {
+      "name": "ポジションアジャスター",
+      "description": "ポジション適正を強化(重複効果なし)",
+      "effects": {},
+      "enabled": true,
+      "id": "additional-4d25416d4a6e4c3db01d4cce69abbd74",
+      "icon": "images/additional_sense_icons/user/91f6a4dbe3034275b0c3eb945889c6cc.png"
+    },
+    {
+      "name": "フィット(CF)",
+      "description": "スターティングメンバーにて指定のポジションに選手を置くと全パラメータが10%アップ(重複効果なし)",
+      "effects": {
+        "OFE": 10,
+        "DEF": 10,
+        "TEC": 10,
+        "POW": 10,
+        "SPD": 10,
+        "STA": 10
+      },
+      "enabled": true,
+      "id": "additional-288272142b70449bb5069e00fb877986",
+      "icon": "images/additional_sense_icons/user/c675c75e70c847b39ad006dea7d7f454.png"
+    },
+    {
+      "name": "フィット(ST)",
+      "description": "スターティングメンバーにて指定のポジションに選手を置くと全パラメータが10%アップ(重複効果なし)",
+      "effects": {
+        "OFE": 10,
+        "DEF": 10,
+        "TEC": 10,
+        "POW": 10,
+        "SPD": 10,
+        "STA": 10
+      },
+      "enabled": true,
+      "id": "additional-0318baca45534efea4774e929d436ddb",
+      "icon": "images/additional_sense_icons/user/7f9133af63804638a86670c4ede51f81.png"
+    },
+    {
+      "name": "フィット(LWG)",
+      "description": "スターティングメンバーにて指定のポジションに選手を置くと全パラメータが10%アップ(重複効果なし)",
+      "effects": {
+        "OFE": 10,
+        "DEF": 10,
+        "TEC": 10,
+        "POW": 10,
+        "SPD": 10,
+        "STA": 10
+      },
+      "enabled": true,
+      "id": "additional-a30f8c4a8a4742bb96b91877eb39628b",
+      "icon": "images/additional_sense_icons/user/6a67c643ee6f4dfa83e67b9533dc8bab.png"
+    },
+    {
+      "name": "フィット(RWG)",
+      "description": "スターティングメンバーにて指定のポジションに選手を置くと全パラメータが10%アップ(重複効果なし)",
+      "effects": {
+        "OFE": 10,
+        "DEF": 10,
+        "TEC": 10,
+        "POW": 10,
+        "SPD": 10,
+        "STA": 10
+      },
+      "enabled": true,
+      "id": "additional-55d99ecabd654c1cb98caed69749efbb",
+      "icon": "images/additional_sense_icons/user/00b13b9918884afabcae94a7f9df131a.png"
+    },
+    {
+      "name": "フィット(OMF)",
+      "description": "スターティングメンバーにて指定のポジションに選手を置くと全パラメータが10%アップ(重複効果なし)",
+      "effects": {
+        "OFE": 10,
+        "DEF": 10,
+        "TEC": 10,
+        "POW": 10,
+        "SPD": 10,
+        "STA": 10
+      },
+      "enabled": true,
+      "id": "additional-e94c9afa11ff42bab3a209b51bb5fe73",
+      "icon": "images/additional_sense_icons/user/ef1cd1c1ae714cc3ba578c8274a81100.png"
+    },
+    {
+      "name": "フィット(CMF)",
+      "description": "スターティングメンバーにて指定のポジションに選手を置くと全パラメータが10%アップ(重複効果なし)",
+      "effects": {
+        "OFE": 10,
+        "DEF": 10,
+        "TEC": 10,
+        "POW": 10,
+        "SPD": 10,
+        "STA": 10
+      },
+      "enabled": true,
+      "id": "additional-670f1089c2804f7a8357d19235ebe652",
+      "icon": "images/additional_sense_icons/user/5a63618c3b7043a89585febbf22c0b96.png"
+    },
+    {
+      "name": "フィット(DMF)",
+      "description": "スターティングメンバーにて指定のポジションに選手を置くと全パラメータが10%アップ(重複効果なし)",
+      "effects": {
+        "OFE": 10,
+        "DEF": 10,
+        "TEC": 10,
+        "POW": 10,
+        "SPD": 10,
+        "STA": 10
+      },
+      "enabled": true,
+      "id": "additional-e2f8d75894b64be5999b1cc1668e53ae",
+      "icon": "images/additional_sense_icons/user/8be87e4464124c998515bc5b8ae16cb0.png"
+    },
+    {
+      "name": "フィット(LMF)",
+      "description": "スターティングメンバーにて指定のポジションに選手を置くと全パラメータが10%アップ(重複効果なし)",
+      "effects": {
+        "OFE": 10,
+        "DEF": 10,
+        "TEC": 10,
+        "POW": 10,
+        "SPD": 10,
+        "STA": 10
+      },
+      "enabled": true,
+      "id": "additional-39d6c1fb71834bf5ae2f3681dd7968b8",
+      "icon": "images/additional_sense_icons/user/a96d2db2153d43219833eaab6f0e0b21.png"
+    },
+    {
+      "name": "フィット(RMF)",
+      "description": "スターティングメンバーにて指定のポジションに選手を置くと全パラメータが10%アップ(重複効果なし)",
+      "effects": {
+        "OFE": 10,
+        "DEF": 10,
+        "TEC": 10,
+        "POW": 10,
+        "SPD": 10,
+        "STA": 10
+      },
+      "enabled": true,
+      "id": "additional-0a5977879a9a456795680fbac5484734",
+      "icon": "images/additional_sense_icons/user/0feaa3ef6e3f4b6bb4eb9b4a325f7f0f.png"
+    },
+    {
+      "name": "フィット(CB)",
+      "description": "スターティングメンバーにて指定のポジションに選手を置くと全パラメータが10%アップ(重複効果なし)",
+      "effects": {
+        "OFE": 10,
+        "DEF": 10,
+        "TEC": 10,
+        "POW": 10,
+        "SPD": 10,
+        "STA": 10
+      },
+      "enabled": true,
+      "id": "additional-4783f9adcc7348d4907e95d067ef4f51",
+      "icon": "images/additional_sense_icons/user/cd49ad3bda7a4ddfbfc309a8e5ceeedf.png"
+    },
+    {
+      "name": "フィット(LSB)",
+      "description": "スターティングメンバーにて指定のポジションに選手を置くと全パラメータが10%アップ(重複効果なし)",
+      "effects": {
+        "OFE": 10,
+        "DEF": 10,
+        "TEC": 10,
+        "POW": 10,
+        "SPD": 10,
+        "STA": 10
+      },
+      "enabled": true,
+      "id": "additional-bc18356501df4c42bdffbc9c2bed7d4e",
+      "icon": "images/additional_sense_icons/user/7c0512d7c45a44febc8c68e73c236244.png"
+    },
+    {
+      "name": "フィット(RSB)",
+      "description": "スターティングメンバーにて指定のポジションに選手を置くと全パラメータが10%アップ(重複効果なし)",
+      "effects": {
+        "OFE": 10,
+        "DEF": 10,
+        "TEC": 10,
+        "POW": 10,
+        "SPD": 10,
+        "STA": 10
+      },
+      "enabled": true,
+      "id": "additional-33175367ba404c4a8651e1d63f7c580f",
+      "icon": "images/additional_sense_icons/user/4ccff61b65ef433c876b7001685f81b7.png"
+    },
+    {
+      "name": "フィット(GK)",
+      "description": "スターティングメンバーにて指定のポジションに選手を置くと全パラメータが10%アップ(重複効果なし)",
+      "effects": {
+        "OFE": 10,
+        "DEF": 10,
+        "TEC": 10,
+        "POW": 10,
+        "SPD": 10,
+        "STA": 10
+      },
+      "enabled": true,
+      "id": "additional-dac7c616dd774217950c83b7a5cb390f",
+      "icon": "images/additional_sense_icons/user/20c18e9aacc940dd858cc2fd4d9d0c23.png"
+    },
+    {
+      "name": "鹿島イズム",
+      "description": "編成中のクラブが鹿島アントラーズの場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-d64c45c117b8418495cc6979cfa9af25",
+      "icon": "images/additional_sense_icons/user/6f60630c01114678add714a9dcafc98e.png"
+    },
+    {
+      "name": "水戸イズム",
+      "description": "編成中のクラブが水戸ホーリーホックの場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-3df786acf2414408bdd8478308db1b1c",
+      "icon": "images/additional_sense_icons/user/4ce8af0b0c0f44ea888a2187398aef45.png"
+    },
+    {
+      "name": "浦和イズム",
+      "description": "編成中のクラブが浦和レッズの場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-f7cdc09f2b1d437da6661136729b0ba6",
+      "icon": "images/additional_sense_icons/user/617babdbf979479b933c071be3329e39.png"
+    },
+    {
+      "name": "千葉イズム",
+      "description": "編成中のクラブがジェフユナイテッド千葉の場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-6cec8bf3c2aa4c1e9b662ca7262a148b",
+      "icon": "images/additional_sense_icons/user/7cab99f438cb4ff48529002be442d306.png"
+    },
+    {
+      "name": "柏イズム",
+      "description": "編成中のクラブが柏レイソルの場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-6e9471f983d64862aa6bc1164bbab8fe",
+      "icon": "images/additional_sense_icons/user/1dadd59c46904d78a016be62c607e870.png"
+    },
+    {
+      "name": "FC東京イズム",
+      "description": "編成中のクラブがFC東京の場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-e1ecd22ed64e463fb57435e71ccdc270",
+      "icon": "images/additional_sense_icons/user/f053a8689d444328bbb566c90a3646c3.png"
+    },
+    {
+      "name": "東京Vイズム",
+      "description": "編成中のクラブが東京ヴェルディの場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-ff5017bf29a5400985b22bd2ee5d7b78",
+      "icon": "images/additional_sense_icons/user/645da87bae24401ca5e4210390284655.png"
+    },
+    {
+      "name": "町田イズム",
+      "description": "編成中のクラブがFC町田ゼルビアの場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-4b8a82fbb09f447296c92a711d71821a",
+      "icon": "images/additional_sense_icons/user/491025065ca74e9cb809b378e7fe34e4.png"
+    },
+    {
+      "name": "川崎Fイズム",
+      "description": "編成中のクラブが川崎フロンターレの場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-fafee923f95b4678babf066cdd6b2f9e",
+      "icon": "images/additional_sense_icons/user/7f9bafdd627b4a8fa64e00dcb94a2b1e.png"
+    },
+    {
+      "name": "横浜FMイズム",
+      "description": "編成中のクラブが横浜F・マリノスの場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-94bbf58a554245b5b17b1df1c16a742a",
+      "icon": "images/additional_sense_icons/user/3abbc4fe079c404cbcd087ec66f4e646.png"
+    },
+    {
+      "name": "清水イズム",
+      "description": "編成中のクラブが清水エスパルスの場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-cc42c5274e0e4149ada43f99e9e934bc",
+      "icon": "images/additional_sense_icons/user/89e8d37953974b618bb691b0e8f696cc.png"
+    },
+    {
+      "name": "名古屋イズム",
+      "description": "編成中のクラブが名古屋グランパスの場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-50ae13539ea74499affc7e38fe7d3b03",
+      "icon": "images/additional_sense_icons/user/4fd1cf21ad22460ea8684b7e59438e98.png"
+    },
+    {
+      "name": "京都イズム",
+      "description": "編成中のクラブが京都サンガF.C.の場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-18f61608e81b4564af3e2f89fcf59b08",
+      "icon": "images/additional_sense_icons/user/cdbe3c4a42d842ba946bbe337f095aad.png"
+    },
+    {
+      "name": "G大阪イズム",
+      "description": "編成中のクラブがガンバ大阪の場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-ac4e657aa6934ee2bf1aa1a364e96b08",
+      "icon": "images/additional_sense_icons/user/8bbfa1b3e6144ca4a4a8aa3962215bd2.png"
+    },
+    {
+      "name": "C大阪イズム",
+      "description": "編成中のクラブがセレッソ大阪の場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-1ef0f52572f84a718e1a85c90d9c7083",
+      "icon": "images/additional_sense_icons/user/56010748d44448ef883f009415fe7655.png"
+    },
+    {
+      "name": "神戸イズム",
+      "description": "編成中のクラブがヴィッセル神戸の場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-cbd71379c0c247bf949d1ee00737dbe5",
+      "icon": "images/additional_sense_icons/user/edc160ee25314c8483e9ce383153f42e.png"
+    },
+    {
+      "name": "岡山イズム",
+      "description": "編成中のクラブがファジアーノ岡山の場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-0f868e2db42642149d087ab8a31ecf49",
+      "icon": "images/additional_sense_icons/user/baa34dc828bd49359074fe9c2afef40b.png"
+    },
+    {
+      "name": "広島イズム",
+      "description": "編成中のクラブがサンフレッチェ広島の場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-4b26fa6293f34fc2a417c95ab2f47f96",
+      "icon": "images/additional_sense_icons/user/be81564e8e9242cea525461dab5d616d.png"
+    },
+    {
+      "name": "福岡イズム",
+      "description": "編成中のクラブがアビスパ福岡の場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-c258a71854274c0f923d0ec557b46133",
+      "icon": "images/additional_sense_icons/user/9ab37a809cb84d90a87789657ded996f.png"
+    },
+    {
+      "name": "長崎イズム",
+      "description": "編成中のクラブがV・ファーレン長崎の場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-d07ffc9a1a614b15ac1033a1d738eeb8",
+      "icon": "images/additional_sense_icons/user/74f9db882d4f43c98ed4486bc4ec37cf.png"
+    },
+    {
+      "name": "札幌イズム",
+      "description": "編成中のクラブが北海道コンサドーレ札幌の場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-b1fc8339ad754533bca2db47c632e6a7",
+      "icon": "images/additional_sense_icons/user/064395b72f624823bcb973fe7a14729b.png"
+    },
+    {
+      "name": "八戸イズム",
+      "description": "編成中のクラブがヴァンラーレ八戸の場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-739fad93cc8e4f28acb6eff450f0b9f7",
+      "icon": "images/additional_sense_icons/user/37020e56c7b64463bcf7fbf28e967598.png"
+    },
+    {
+      "name": "仙台イズム",
+      "description": "編成中のクラブがベガルタ仙台の場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-b0e7f9ece8a74c938fc9551f5c0797cc",
+      "icon": "images/additional_sense_icons/user/d3516f9557eb4cd4985d89d538fc4530.png"
+    },
+    {
+      "name": "秋田イズム",
+      "description": "編成中のクラブがブラウブリッツ秋田の場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-13fec5edecfd46f8b8592db215264d58",
+      "icon": "images/additional_sense_icons/user/580f24af0f344480ab798c2d759f25c2.png"
+    },
+    {
+      "name": "山形イズム",
+      "description": "編成中のクラブがモンテディオ山形の場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-ccc8b06c53ea48d685d1dc642eb09da8",
+      "icon": "images/additional_sense_icons/user/d1125880c8de4892bf823396505bab4b.png"
+    },
+    {
+      "name": "いわきイズム",
+      "description": "編成中のクラブがいわきFCの場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-b922f477895d4989963d98aa04ec74c6",
+      "icon": "images/additional_sense_icons/user/f7d18ce3408a4eb1aed4ae24a04d96d1.png"
+    },
+    {
+      "name": "栃木Cイズム",
+      "description": "編成中のクラブが栃木シティの場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-62e10b86e4ff4455a2417d6d81976ef8",
+      "icon": "images/additional_sense_icons/user/e9c05a605ec94fa8b4c38758a9331710.png"
+    },
+    {
+      "name": "大宮イズム",
+      "description": "編成中のクラブがRB大宮アルディージャの場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-ad37c7633d484de0aaeac798fe4173a4",
+      "icon": "images/additional_sense_icons/user/86e6a3ff10744815b410dabe943df2a5.png"
+    },
+    {
+      "name": "横浜FCイズム",
+      "description": "編成中のクラブが横浜FCの場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-c785afb2b2c8491291590ea4ee772ff3",
+      "icon": "images/additional_sense_icons/user/1372f53951b14c29926bb1951022b428.png"
+    },
+    {
+      "name": "湘南イズム",
+      "description": "編成中のクラブが湘南ベルマーレの場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-f00cbcdbdec7467eb0bc9ea7854bb04c",
+      "icon": "images/additional_sense_icons/user/4240858f012445ce9aa6b25c90c8f9ff.png"
+    },
+    {
+      "name": "甲府イズム",
+      "description": "編成中のクラブがヴァンフォーレ甲府の場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-e0498e431ecc451fba0b9b52dcb06b91",
+      "icon": "images/additional_sense_icons/user/ef3f239d1a8e452bb86fa2ec7946c357.png"
+    },
+    {
+      "name": "新潟イズム",
+      "description": "編成中のクラブがアルビレックス新潟の場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-5224c1299bbf451dbc2e7831b3128541",
+      "icon": "images/additional_sense_icons/user/8b054e46fb434732b8a62a410d2e67c3.png"
+    },
+    {
+      "name": "富山イズム",
+      "description": "編成中のクラブがカターレ富山の場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-23a69473afb742ce840616c5f43e319a",
+      "icon": "images/additional_sense_icons/user/f7645379fa0b46479d1e3c58517bb565.png"
+    },
+    {
+      "name": "磐田イズム",
+      "description": "編成中のクラブがジュビロ磐田の場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-114d4d67c4f644cbbf7845cbc77a7f07",
+      "icon": "images/additional_sense_icons/user/8658d231269742668f17463cca1b683d.png"
+    },
+    {
+      "name": "藤枝イズム",
+      "description": "編成中のクラブが藤枝MYFCの場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-48f4e7a0595a46e79eb9835b23786201",
+      "icon": "images/additional_sense_icons/user/e4db401a8c214817a454aecb1e48ce80.png"
+    },
+    {
+      "name": "徳島イズム",
+      "description": "編成中のクラブが徳島ヴォルティスの場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-4f23e52e4ac24099ba3f5d5779587f7f",
+      "icon": "images/additional_sense_icons/user/a06ca328f02e461cb941d0238d9b02a4.png"
+    },
+    {
+      "name": "今治イズム",
+      "description": "編成中のクラブがFC今治の場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-525e5ce8f1ab418b89af60ba29e4d2cb",
+      "icon": "images/additional_sense_icons/user/d56b09358c2d49ada72b021232bc97b2.png"
+    },
+    {
+      "name": "鳥栖イズム",
+      "description": "編成中のクラブがサガン鳥栖の場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-b117780e2eb84b719f069e98409c02fe",
+      "icon": "images/additional_sense_icons/user/60d173c037f84acaad7cd35e10eb0017.png"
+    },
+    {
+      "name": "大分イズム",
+      "description": "編成中のクラブが大分トリニータの場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-691a0803090d4e77bb70f81947737e81",
+      "icon": "images/additional_sense_icons/user/236083fae30d458a9ecf668930ca720f.png"
+    },
+    {
+      "name": "宮崎イズム",
+      "description": "編成中のクラブがテゲバジャーロ宮崎の場合、全パラメータが5％アップ",
+      "effects": {
+        "OFE": 5,
+        "DEF": 5,
+        "TEC": 5,
+        "POW": 5,
+        "SPD": 5,
+        "STA": 5
+      },
+      "enabled": true,
+      "id": "additional-06d3590950264163b8e3a1f4a2954189",
+      "icon": "images/additional_sense_icons/user/8b9dcd4c91b24fb0aa1c0976c07d6c9b.png"
+    }
+  ]
+}

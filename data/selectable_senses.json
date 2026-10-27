@@ -352,7 +352,20 @@
       "effects": {},
       "icon": "images/sense_icons/custom/crusher.png",
       "enabled": false,
-      "source": "DB内の登録済みセンス"
+      "source": "登録ツールで追加",
+      "customEpOptions": [
+        {
+          "kind": "ep",
+          "rate": 50
+        },
+        {
+          "kind": "skill",
+          "group": "ディフェンス",
+          "rank": "A",
+          "rate": 25
+        }
+      ],
+      "linkEffects": {}
     },
     {
       "id": "sense-3f04723bf4ef67ca",
@@ -362,7 +375,20 @@
       "effects": {},
       "icon": "images/sense_icons/custom/skillful_crosser.png",
       "enabled": false,
-      "source": "DB内の登録済みセンス"
+      "source": "登録ツールで追加",
+      "customEpOptions": [
+        {
+          "kind": "ep",
+          "rate": 50
+        },
+        {
+          "kind": "skill",
+          "group": "パス",
+          "rank": "A",
+          "rate": 25
+        }
+      ],
+      "linkEffects": {}
     },
     {
       "id": "sense-55f3da60699f5746",
@@ -372,7 +398,20 @@
       "effects": {},
       "icon": "images/sense_icons/custom/dribble_star.png",
       "enabled": false,
-      "source": "DB内の登録済みセンス"
+      "source": "登録ツールで追加",
+      "customEpOptions": [
+        {
+          "kind": "ep",
+          "rate": 50
+        },
+        {
+          "kind": "skill",
+          "group": "ドリブル",
+          "rank": "A",
+          "rate": 25
+        }
+      ],
+      "linkEffects": {}
     },
     {
       "id": "sense-6d48d011bfe712c7",
@@ -382,7 +421,20 @@
       "effects": {},
       "icon": "images/sense_icons/custom/back_liner.png",
       "enabled": false,
-      "source": "DB内の登録済みセンス"
+      "source": "登録ツールで追加",
+      "customEpOptions": [
+        {
+          "kind": "ep",
+          "rate": 50
+        },
+        {
+          "kind": "skill",
+          "group": "ディフェンス",
+          "rank": "A",
+          "rate": 25
+        }
+      ],
+      "linkEffects": {}
     },
     {
       "id": "sense-9f347795b09d5c3d",
@@ -392,7 +444,20 @@
       "effects": {},
       "icon": "images/sense_icons/custom/pitch_runner.png",
       "enabled": false,
-      "source": "DB内の登録済みセンス"
+      "source": "登録ツールで追加",
+      "customEpOptions": [
+        {
+          "kind": "ep",
+          "rate": 50
+        },
+        {
+          "kind": "skill",
+          "group": "ディフェンス",
+          "rank": "A",
+          "rate": 25
+        }
+      ],
+      "linkEffects": {}
     },
     {
       "id": "sense-7bc950cde55957d8",
@@ -402,7 +467,20 @@
       "effects": {},
       "icon": "images/sense_icons/custom/fortress.png",
       "enabled": false,
-      "source": "DB内の登録済みセンス"
+      "source": "登録ツールで追加",
+      "customEpOptions": [
+        {
+          "kind": "ep",
+          "rate": 50
+        },
+        {
+          "kind": "skill",
+          "group": "キーパー",
+          "rank": "A",
+          "rate": 25
+        }
+      ],
+      "linkEffects": {}
     },
     {
       "id": "sense-c5167e112e8328b2",
@@ -412,7 +490,20 @@
       "effects": {},
       "icon": "images/sense_icons/custom/blinder.png",
       "enabled": false,
-      "source": "DB内の登録済みセンス"
+      "source": "登録ツールで追加",
+      "customEpOptions": [
+        {
+          "kind": "ep",
+          "rate": 50
+        },
+        {
+          "kind": "skill",
+          "group": "キーパー",
+          "rank": "A",
+          "rate": 25
+        }
+      ],
+      "linkEffects": {}
     },
     {
       "id": "sense-b804bbff8ac1887c",
@@ -422,7 +513,20 @@
       "effects": {},
       "icon": "images/sense_icons/custom/middle_shooter.png",
       "enabled": false,
-      "source": "DB内の登録済みセンス"
+      "source": "登録ツールで追加",
+      "customEpOptions": [
+        {
+          "kind": "ep",
+          "rate": 50
+        },
+        {
+          "kind": "skill",
+          "group": "シュート",
+          "rank": "A",
+          "rate": 25
+        }
+      ],
+      "linkEffects": {}
     },
     {
       "id": "sense-9472cec5da3be7cd",
@@ -432,7 +536,20 @@
       "effects": {},
       "icon": "images/sense_icons/custom/one_touch_goaler.png",
       "enabled": false,
-      "source": "DB内の登録済みセンス"
+      "source": "登録ツールで追加",
+      "customEpOptions": [
+        {
+          "kind": "ep",
+          "rate": 50
+        },
+        {
+          "kind": "skill",
+          "group": "シュート",
+          "rank": "A",
+          "rate": 25
+        }
+      ],
+      "linkEffects": {}
     },
     {
       "id": "sense-2b8c40c26f369c72",
@@ -810,7 +927,7 @@
       "description": "キーパー系のAスペシャルスキルを強化し、EP獲得量が25%アップ",
       "effects": {},
       "icon": "images/sense_icons/bonus/keeper_skill_a.png",
-      "enabled": false,
+      "enabled": true,
       "source": "DB内の登録済みセンス"
     },
     {
@@ -832,7 +949,7 @@
       "description": "シュート系のAスペシャルスキルを強化し、EP獲得量が25%アップ",
       "effects": {},
       "icon": "images/sense_icons/bonus/shoot_skill_a.png",
-      "enabled": false,
+      "enabled": true,
       "source": "DB内の登録済みセンス"
     },
     {
@@ -1388,7 +1505,7 @@
       "description": "ディフェンス系のスペシャルスキルを強化し、EP獲得量が25%アップ",
       "effects": {},
       "icon": "images/sense_icons/bonus/defence_skill_a.png",
-      "enabled": false,
+      "enabled": true,
       "source": "DB内の登録済みセンス"
     },
     {
@@ -2163,28 +2280,330 @@
       "icon": "images/sense_icons/reference/position.png",
       "enabled": true,
       "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-aff1a971dd33875b",
+      "type": "ボーナスセンス",
+      "name": "キーパースキル強化B",
+      "description": "キーパー系のBスペシャルスキルを強化し、EP獲得量が15%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/user/bb0473ce9dd54d5882fb4ac0a8e77096.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-819ff0da0361cc17",
+      "type": "ボーナスセンス",
+      "name": "キーパースキル強化B+",
+      "description": "キーパー系のBスペシャルスキルを強化し、EP獲得量が15/20/25%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/user/bb0473ce9dd54d5882fb4ac0a8e77096.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-5ada1156fb3483b3",
+      "type": "ボーナスセンス",
+      "name": "シュートスキル強化B",
+      "description": "シュート系のBスペシャルスキルを強化し、EP獲得量が15%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/user/d7dbf351ead646bf96e6a4e375fc1d4e.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-879c94d8f366f2e1",
+      "type": "ボーナスセンス",
+      "name": "シュートスキル強化B+",
+      "description": "シュート系のBスペシャルスキルを強化し、EP獲得量が15/20/25%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/user/d7dbf351ead646bf96e6a4e375fc1d4e.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-98bca3a2938acf5a",
+      "type": "ボーナスセンス",
+      "name": "ディフェンススキル強化B",
+      "description": "ディフェンス系のBスペシャルスキルを強化し、EP獲得量が15%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/user/c71af636a6474cebb3183d9f45c4d4dd.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-af6e3210bccd27e0",
+      "type": "ボーナスセンス",
+      "name": "ディフェンススキル強化B+",
+      "description": "ディフェンス系のBスペシャルスキルを強化し、EP獲得量が15/20/25%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/user/c71af636a6474cebb3183d9f45c4d4dd.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-089cdde774be3528",
+      "type": "ボーナスセンス",
+      "name": "ドリブルスキル強化B",
+      "description": "ドリブル系のBスペシャルスキルを強化し、EP獲得量が15%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/user/6dd2bfc826a749d59e7306a68a4650e5.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-0b2791d2f6375275",
+      "type": "ボーナスセンス",
+      "name": "ドリブルスキル強化B+",
+      "description": "ドリブル系のBスペシャルスキルを強化し、EP獲得量が15/20/25%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/user/6dd2bfc826a749d59e7306a68a4650e5.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-b852b026682bb0d6",
+      "type": "ボーナスセンス",
+      "name": "パススキル強化B",
+      "description": "パス系のBスペシャルスキルを強化し、EP獲得量が15%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/user/00bd5398c66d4be393d93f75693255df.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-9ffb895d6a341afd",
+      "type": "ボーナスセンス",
+      "name": "パススキル強化B+",
+      "description": "パス系のBスペシャルスキルを強化し、EP獲得量が15/20/25%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/user/00bd5398c66d4be393d93f75693255df.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-469171520ed1d6f9",
+      "type": "ボーナスセンス",
+      "name": "ポジションスキル強化B",
+      "description": "ポジション系のBスペシャルスキルを強化し、EP獲得量が15%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/user/82071563a5fa4ee28f6f81884d1dcdf8.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-e340bf795795d166",
+      "type": "ボーナスセンス",
+      "name": "ポジションスキル強化B+",
+      "description": "ポジション系のBスペシャルスキルを強化し、EP獲得量が15/20/25%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/user/82071563a5fa4ee28f6f81884d1dcdf8.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-a861c8c9b23ef6c0",
+      "type": "ボーナスセンス",
+      "name": "キーパースキル強化C",
+      "description": "キーパー系のCスペシャルスキルを強化し、EP獲得量が10%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/user/4a42431aa28749b3bbf13135cc8e5912.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-ea224ebc3577c5e5",
+      "type": "ボーナスセンス",
+      "name": "キーパースキル強化C+",
+      "description": "キーパー系のCスペシャルスキルを強化し、EP獲得量が10/15/20%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/user/4a42431aa28749b3bbf13135cc8e5912.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-093234884387e52a",
+      "type": "ボーナスセンス",
+      "name": "シュートスキル強化C",
+      "description": "シュート系のCスペシャルスキルを強化し、EP獲得量が10%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/user/75a096e9c21a4dddade379b26bd38751.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-aaddcd4e710d175a",
+      "type": "ボーナスセンス",
+      "name": "シュートスキル強化C+",
+      "description": "シュート系のCスペシャルスキルを強化し、EP獲得量が10/15/20%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/user/75a096e9c21a4dddade379b26bd38751.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-8c336eb725471bf0",
+      "type": "ボーナスセンス",
+      "name": "ディフェンススキル強化C",
+      "description": "ディフェンス系のCスペシャルスキルを強化し、EP獲得量が10%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/user/f634694d2a6a41f9a49ace4b33a572c9.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-4dc8b7d46ba6729d",
+      "type": "ボーナスセンス",
+      "name": "ディフェンススキル強化C+",
+      "description": "ディフェンス系のCスペシャルスキルを強化し、EP獲得量が10/15/20%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/user/f634694d2a6a41f9a49ace4b33a572c9.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-c3986a92e6a8aed8",
+      "type": "ボーナスセンス",
+      "name": "ドリブルスキル強化C",
+      "description": "ドリブル系のCスペシャルスキルを強化し、EP獲得量が10%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/user/2d3649b2729d48c496aa00d25145ef37.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-6a5526240d6e3bc1",
+      "type": "ボーナスセンス",
+      "name": "ドリブルスキル強化C+",
+      "description": "ドリブル系のCスペシャルスキルを強化し、EP獲得量が10/15/20%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/user/2d3649b2729d48c496aa00d25145ef37.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-b2be0909eb39786e",
+      "type": "ボーナスセンス",
+      "name": "パススキル強化C",
+      "description": "パス系のCスペシャルスキルを強化し、EP獲得量が10%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/user/3f0f013425c2445996c6c4f6e5e5287e.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-3a5e24e8e278e551",
+      "type": "ボーナスセンス",
+      "name": "パススキル強化C+",
+      "description": "パス系のCスペシャルスキルを強化し、EP獲得量が10/15/20%アップ",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/user/3f0f013425c2445996c6c4f6e5e5287e.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-4c55abe0aad09db0",
+      "type": "付与センス",
+      "name": "LevainCUP・スタミナ15%アップ+ ディフェンス5％アップ+",
+      "description": "選手のスタミナ値が15/20/25%アップ 選手のディフェンス値が5/10/15%アップ",
+      "effects": {
+        "DEF": 5,
+        "STA": 15
+      },
+      "linkEffects": {
+        "STA": [
+          15,
+          20,
+          25
+        ],
+        "DEF": [
+          5,
+          10,
+          15
+        ]
+      },
+      "icon": "images/sense_icons/user/00f3a3afb21848afb607a43bab068209.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-0e395f9d81db2cb9",
+      "type": "付与センス",
+      "name": "LevainCUP・スタミナ15%アップ+ オフェンス5％アップ+",
+      "description": "選手のスタミナ値が15/20/25%アップ 選手のオフェンス値が5/10/15%アップ",
+      "effects": {
+        "OFE": 5,
+        "STA": 15
+      },
+      "linkEffects": {
+        "STA": [
+          15,
+          20,
+          25
+        ],
+        "OFE": [
+          5,
+          10,
+          15
+        ]
+      },
+      "icon": "images/sense_icons/user/fbb35f1c6234498d902b62ccb8bcca61.png",
+      "enabled": true,
+      "source": "登録ツールで追加"
     }
   ],
   "deletedIds": [
+    "asset-005ccfa8a9d66556",
     "asset-01f96e162b17a75b",
+    "asset-16fb87febf5722e5",
     "asset-20aba186ca2e62a1",
     "asset-315d7a63c8f79da1",
+    "asset-3ca455be4036f1a3",
     "asset-3d661706e6905c94",
     "asset-4b0976231c1d4810",
     "asset-4e666accdcfaae6a",
+    "asset-4ed02718c25e4ffc",
+    "asset-4eff61bbb10c82a2",
     "asset-517a95de43a160de",
     "asset-54e4777a1539ca6c",
+    "asset-67fe400eadccef8a",
     "asset-70552159045abf44",
     "asset-72ee9c79c091365f",
     "asset-73f8edf0ef3f52dc",
     "asset-7f2fb4bf1edb5d54",
     "asset-83ea8f10e19ac78e",
+    "asset-8c63edf2e0ccd806",
     "asset-8cad8c89ccbaccbd",
+    "asset-8cded86d0f7e469a",
     "asset-98603af8fa6a6ee4",
     "asset-a069ad8d211389e5",
     "asset-a1af905d35572719",
     "asset-adf955c1de585178",
+    "asset-af97f56d2062cd9b",
     "asset-b0235429906f3f3e",
+    "asset-b21af7a720b94949",
     "asset-b622275a82ac066b",
     "asset-be272c213c35dc35",
     "asset-bfa993a85daf35f1",
@@ -2192,9 +2611,13 @@
     "asset-d285e06a2a3c3f16",
     "asset-d9dbdc95825c2e6b",
     "asset-e33d997cf6c8994a",
+    "asset-e7b80ad8968c6938",
     "asset-edbe4c885f07a2ca",
+    "asset-f240233c85552073",
     "asset-f50880939816e7e5",
     "sense-0ef2028ce669d49c",
+    "sense-2d546fb7876b6536",
+    "sense-2f8a0d72a39cfbda",
     "sense-38ce25255da2ed58",
     "sense-5a1e098a5c583445",
     "sense-659a014fd277c2b0",
@@ -2206,7 +2629,9 @@
     "sense-f5005f4c95c5f880"
   ],
   "deletedSenses": [
+    "ボーナスセンス|パススキル強化A",
     "付与センス|EP5%アップ",
+    "付与センス|LevainCUP・スタミナ15%アップ+ ディフェンス5％アップ",
     "付与センス|ディフェンス5％アップ",
     "画像のみ（効果未登録）|画像未登録：blue/DEF.png",
     "画像のみ（効果未登録）|画像未登録：blue/OFE.png",
@@ -2235,7 +2660,33 @@
     "画像のみ（効果未登録）|画像未登録：ep_only/silver.png",
     "画像のみ（効果未登録）|画像未登録：reference/dribble.png",
     "画像のみ（効果未登録）|画像未登録：reference/pass_skill.png",
-    "画像のみ（効果未登録）|画像未登録：reference/position.png"
+    "画像のみ（効果未登録）|画像未登録：reference/position.png",
+    "画像のみ（効果未登録）|画像未登録：user/49810a14501c4d6ab1e54109e9094520.png",
+    "画像のみ（効果未登録）|画像未登録：user/6205d209c9ae409ca1df4c3af9e26447.png",
+    "画像のみ（効果未登録）|画像未登録：user/63c6b485b6e84392ad828ed2fe7f25fa.png",
+    "画像のみ（効果未登録）|画像未登録：user/6f042eafbf1c486ab81e3ed28d320140.png",
+    "画像のみ（効果未登録）|画像未登録：user/76e94160a3564c93b813fc1fff76cdbf.png",
+    "画像のみ（効果未登録）|画像未登録：user/9f35c984d24d4c82bef4128fbe931a71.png",
+    "画像のみ（効果未登録）|画像未登録：user/aeea7aa4a62a46c7b898f1d7ecc1eb6f.png",
+    "画像のみ（効果未登録）|画像未登録：user/d732a34274d14bb2b840fa9791c46be5.png",
+    "画像のみ（効果未登録）|画像未登録：user/e55c00eff39e4f2287d7811cf8e1ce11.png",
+    "画像のみ（効果未登録）|画像未登録：user/ee48ae54c0034cbbad9d6cf72b129e43.png",
+    "画像のみ（効果未登録）|画像未登録：user/f36729771d8f455893b0fd1a895ba9ed.png",
+    "画像のみ（効果未登録）|画像未登録：user/fee34fb153b749b781325376240e640a.png"
   ],
-  "deletedAssetPaths": []
+  "deletedAssetPaths": [
+    "images/sense_icons/user/49810a14501c4d6ab1e54109e9094520.png",
+    "images/sense_icons/user/583411b1120e4968951c023d75430274.png",
+    "images/sense_icons/user/6205d209c9ae409ca1df4c3af9e26447.png",
+    "images/sense_icons/user/63c6b485b6e84392ad828ed2fe7f25fa.png",
+    "images/sense_icons/user/6f042eafbf1c486ab81e3ed28d320140.png",
+    "images/sense_icons/user/76e94160a3564c93b813fc1fff76cdbf.png",
+    "images/sense_icons/user/9f35c984d24d4c82bef4128fbe931a71.png",
+    "images/sense_icons/user/aeea7aa4a62a46c7b898f1d7ecc1eb6f.png",
+    "images/sense_icons/user/d732a34274d14bb2b840fa9791c46be5.png",
+    "images/sense_icons/user/e55c00eff39e4f2287d7811cf8e1ce11.png",
+    "images/sense_icons/user/ee48ae54c0034cbbad9d6cf72b129e43.png",
+    "images/sense_icons/user/f36729771d8f455893b0fd1a895ba9ed.png",
+    "images/sense_icons/user/fee34fb153b749b781325376240e640a.png"
+  ]
 }
