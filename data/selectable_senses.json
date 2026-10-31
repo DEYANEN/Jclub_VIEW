@@ -2572,6 +2572,29 @@
       "icon": "images/sense_icons/user/fbb35f1c6234498d902b62ccb8bcca61.png",
       "enabled": true,
       "source": "登録ツールで追加"
+    },
+    {
+      "id": "sense-66166116f15d035b",
+      "customEpOptions": [
+        {
+          "kind": "ep",
+          "rate": 50
+        },
+        {
+          "kind": "skill",
+          "group": "パス",
+          "rank": "A",
+          "rate": 25
+        }
+      ],
+      "type": "カスタムセンス",
+      "name": "ゲームメイカー",
+      "description": "パスを主体にゲームを組み立て、攻撃を牽引する",
+      "effects": {},
+      "linkEffects": {},
+      "icon": "images/sense_icons/user/1495081609af4af8ab956ce71097b8bd.png",
+      "enabled": false,
+      "source": "登録ツールで追加"
     }
   ],
   "deletedIds": [

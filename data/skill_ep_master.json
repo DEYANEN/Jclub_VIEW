@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "2026-10-27 screenshot-derived 152 entries + user input file Jクラ_画像未掲載スキル91種類_裏EP入力用(2).xlsx (97 rows), including six additional collaboration skills",
-  "record_count": 249,
+  "record_count": 246,
   "entries": [
     {
       "rank": "A",
@@ -725,18 +725,6 @@
     },
     {
       "rank": "A",
-      "name": "フェノメノフライングボレー",
-      "group": "シュート",
-      "subgroup": "ボレー系",
-      "ura_ep": 1.5,
-      "status": "同義参照",
-      "provenance": "補完Excelの同義指定",
-      "alias_of": "フェノメナルフライングボレー",
-      "db_registered": true,
-      "notes": "フェノメナルフライングボレーと同義"
-    },
-    {
-      "rank": "A",
       "name": "フライングボレーシュート",
       "group": "シュート",
       "subgroup": "ボレー系",
@@ -866,18 +854,6 @@
       "alias_of": null,
       "db_registered": true,
       "notes": null
-    },
-    {
-      "rank": "B",
-      "name": "高速度ミドルシュート",
-      "group": "シュート",
-      "subgroup": "ミドルレンジスナイプ系",
-      "ura_ep": 1.0,
-      "status": "同義参照",
-      "provenance": "補完Excelの同義指定",
-      "alias_of": "高精度ミドルシュート",
-      "db_registered": true,
-      "notes": "高精度ミドルシュートと同義"
     },
     {
       "rank": "C",
@@ -1394,18 +1370,6 @@
       "alias_of": null,
       "db_registered": true,
       "notes": null
-    },
-    {
-      "rank": "A",
-      "name": "レザービーム",
-      "group": "パス",
-      "subgroup": "スルーフィード系",
-      "ura_ep": 1.0,
-      "status": "同義参照",
-      "provenance": "補完Excelの同義指定",
-      "alias_of": "レーザービーム",
-      "db_registered": true,
-      "notes": "レーザービームと同義"
     },
     {
       "rank": "A",
@@ -2114,18 +2078,6 @@
       "alias_of": null,
       "db_registered": true,
       "notes": null
-    },
-    {
-      "rank": "B",
-      "name": "高速ドリブル",
-      "group": "ドリブル",
-      "subgroup": "光速ドリブル系",
-      "ura_ep": 1.0,
-      "status": "同義参照",
-      "provenance": "補完Excelの同義指定",
-      "alias_of": "音速ドリブル",
-      "db_registered": true,
-      "notes": "音速ドリブルと同義"
     },
     {
       "rank": "C",
@@ -2989,6 +2941,18 @@
       "provenance": "画像から転記",
       "alias_of": null,
       "db_registered": true,
+      "notes": null
+    },
+    {
+      "rank": "A",
+      "name": "エクセレントアーチパス",
+      "group": "パス",
+      "subgroup": "フライスルーパス系",
+      "ura_ep": 1.7,
+      "status": "登録済",
+      "provenance": "スキル管理画面から追加",
+      "alias_of": null,
+      "db_registered": false,
       "notes": null
     }
   ]

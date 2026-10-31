@@ -89,7 +89,8 @@
     "カスタムセンス|フォートレス": "images/sense_icons/custom/fortress.png",
     "カスタムセンス|ブラインダー": "images/sense_icons/custom/blinder.png",
     "カスタムセンス|ミドルシューター": "images/sense_icons/custom/middle_shooter.png",
-    "カスタムセンス|ワンタッチゴーラー": "images/sense_icons/custom/one_touch_goaler.png"
+    "カスタムセンス|ワンタッチゴーラー": "images/sense_icons/custom/one_touch_goaler.png",
+    "カスタムセンス|ゲームメイカー": "images/sense_icons/user/1495081609af4af8ab956ce71097b8bd.png"
   },
   "iconOrder": [
     "images/sense_icons/gold/OFE.png",
